@@ -1,0 +1,23 @@
+/* 
+
+--  Domestic Robot
+
+    . Example of AgentSpeak code in Section 3.4 
+    . Example of Environment code in Section 5.2
+    . Example of agent architecture customisation in Section 7.3
+	. Exercises 3.5
+	. Exercise 4.5 - 3
+	. Exercise 5.3 - 2
+	. Exercise 6.4 - 1
+
+*/
+
+MAS domestic_robot {
+
+    environment: HouseEnv(gui) 
+
+    agents: robot;
+            owner;
+            supermarket agentArchClass SupermarketArch;
+}
+

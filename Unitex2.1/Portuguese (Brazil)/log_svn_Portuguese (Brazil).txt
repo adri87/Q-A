@@ -1,0 +1,27 @@
+------------------------------------------------------------------------
+r2050 | friburger | 2010-12-21 11:42:52 +0100 (Tue, 21 Dec 2010) | 1 line
+
+Creating the folders named Cassys (for each language) for the Cassys System
+------------------------------------------------------------------------
+r631 | paumier | 2009-03-03 11:22:27 +0100 (Tue, 03 Mar 2009) | 1 line
+
+Bug fix on V076.fst2 by Eric Laporte
+------------------------------------------------------------------------
+r532 | agata | 2008-10-22 09:20:54 +0200 (Wed, 22 Oct 2008) | 1 line
+
+Portuguese ressources for a sample DELAC inflection
+------------------------------------------------------------------------
+r178 | paumier | 2006-11-15 08:44:29 +0100 (Wed, 15 Nov 2006) | 3 lines
+
+Adding for each language a file named Norm.txt that
+defines replacement rules to be used by the new
+version of the Normalize program
+------------------------------------------------------------------------
+r104 | paumier | 2006-09-13 11:33:05 +0200 (Wed, 13 Sep 2006) | 1 line
+
+Adding inflection graphs for Portuguese of Brazil
+------------------------------------------------------------------------
+r103 | paumier | 2006-09-13 11:01:15 +0200 (Wed, 13 Sep 2006) | 1 line
+
+Adding resources for Portuguese of Brazil
+------------------------------------------------------------------------

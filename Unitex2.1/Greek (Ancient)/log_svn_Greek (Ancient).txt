@@ -1,0 +1,27 @@
+------------------------------------------------------------------------
+r2050 | friburger | 2010-12-21 11:42:52 +0100 (Tue, 21 Dec 2010) | 1 line
+
+Creating the folders named Cassys (for each language) for the Cassys System
+------------------------------------------------------------------------
+r231 | paumier | 2007-02-06 10:15:23 +0100 (Tue, 06 Feb 2007) | 1 line
+
+Update by Bastien Kindt
+------------------------------------------------------------------------
+r225 | paumier | 2007-02-02 12:07:02 +0100 (Fri, 02 Feb 2007) | 1 line
+
+Updating Resources for Ancient Greek, some more
+------------------------------------------------------------------------
+r224 | paumier | 2007-02-02 12:05:27 +0100 (Fri, 02 Feb 2007) | 1 line
+
+Updating Resources for Ancient Greek
+------------------------------------------------------------------------
+r178 | paumier | 2006-11-15 08:44:29 +0100 (Wed, 15 Nov 2006) | 3 lines
+
+Adding for each language a file named Norm.txt that
+defines replacement rules to be used by the new
+version of the Normalize program
+------------------------------------------------------------------------
+r98 | paumier | 2006-09-12 15:59:12 +0200 (Tue, 12 Sep 2006) | 1 line
+
+Adding resources for Ancient Greek
+------------------------------------------------------------------------

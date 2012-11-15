@@ -1,0 +1,35 @@
+/* Initial beliefs*/
+query_id(1).
+
+/* Rules */
+
+is_after(HH,MM, Hh,Mm) :- true.
+
+/* Initial goals */
+   
+/* Plans */
+@storejourney
++journey(From, To, Departure, Arrival, fare(FName, FPrice))[query(Query)]
+	: 	true
+	<- 	.print(journey(From, To, Departure, Arrival, fare(FName, FPrice)));
+		+journey(From, To, Departure, Arrival, fare(FName, FPrice)).
+		
+@find	
++!find_travel(From,To,Day,Month,Year) 
+	:	true
+	<-	?query_id(N);
+		Id = N + 1;
+		-+quer_id(Id);
+		findTravel(Id, From, To, Day, Month, Year);
+		!min.
+
+@search
++!min : true
+	<- 	.findall(alljourney(fare(FPrice, FName), Arrival, Departure, To, From), 
+			journey(From, To, Departure, Arrival, fare(FName, FPrice)), L);
+		.min(L, alljourney(fare(FPriceMin, FN), Arri, Depart, T, F));
+		L \== [];
+		.print(L);
+		.send(userAgent, tell, available(yes));
+		.send(userAgent, achieve, show(journey(F, T, Depart, Arri, fare(FN, FPriceMin))));
+		.abolish(journey(_,_,_,_,_)).

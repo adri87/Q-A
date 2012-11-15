@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r2050 | friburger | 2010-12-21 11:42:52 +0100 (Tue, 21 Dec 2010) | 1 line
+
+Creating the folders named Cassys (for each language) for the Cassys System
+------------------------------------------------------------------------
+r215 | paumier | 2007-01-19 16:23:52 +0100 (Fri, 19 Jan 2007) | 1 line
+
+Fixing 4 incorrect lines in the dictionary
+------------------------------------------------------------------------
+r178 | paumier | 2006-11-15 08:44:29 +0100 (Wed, 15 Nov 2006) | 3 lines
+
+Adding for each language a file named Norm.txt that
+defines replacement rules to be used by the new
+version of the Normalize program
+------------------------------------------------------------------------
+r110 | paumier | 2006-09-13 11:50:56 +0200 (Wed, 13 Sep 2006) | 1 line
+
+Adding resources for Spanish
+------------------------------------------------------------------------

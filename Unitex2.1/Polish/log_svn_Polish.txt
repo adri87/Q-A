@@ -1,0 +1,23 @@
+------------------------------------------------------------------------
+r2050 | friburger | 2010-12-21 11:42:52 +0100 (Tue, 21 Dec 2010) | 1 line
+
+Creating the folders named Cassys (for each language) for the Cassys System
+------------------------------------------------------------------------
+r531 | agata | 2008-10-22 09:17:44 +0200 (Wed, 22 Oct 2008) | 1 line
+
+Polish ressources for a sample DELAC inflection
+------------------------------------------------------------------------
+r178 | paumier | 2006-11-15 08:44:29 +0100 (Wed, 15 Nov 2006) | 3 lines
+
+Adding for each language a file named Norm.txt that
+defines replacement rules to be used by the new
+version of the Normalize program
+------------------------------------------------------------------------
+r106 | paumier | 2006-09-13 11:43:23 +0200 (Wed, 13 Sep 2006) | 1 line
+
+Removing old files
+------------------------------------------------------------------------
+r102 | paumier | 2006-09-12 16:24:55 +0200 (Tue, 12 Sep 2006) | 1 line
+
+Adding resources for Polish
+------------------------------------------------------------------------

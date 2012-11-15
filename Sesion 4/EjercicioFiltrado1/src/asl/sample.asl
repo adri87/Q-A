@@ -1,0 +1,50 @@
+// Agent sample in project EjercicioFiltradoCantidad
+
+/* Initial beliefs and rules */
+
+room(single).
+price(max, 110).
+
+/* Initial goals */
+
+!start.
+
+/* Plans */
+
++!start : true 
+	<- 	+room(hotel1, single, stars(4), 50.4);
+	 	+room(hotel1, double, stars(4), 90.2);
+	 	
+	 	+room(hotel2, single, stars(5), 109);
+		+room(hotel2, double, stars(5), 190.8);
+		+room(hotel2, suite, stars(5), 250.4);
+		
+		+room(hotel3, single, stars(4), 60);
+		+room(hotel3, suite, stars(4), 145);
+		
+		+room(hotel4, single, stars(5), 99);
+		
+		.wait(2000);
+		!show(results).
+		
+		
+/* Filter room beliefs when created */
+@r1
++room(Name, Type, stars(Stars), Price)
+	:	room(Type)
+	<-	.println(room(Name, Type, stars(Stars), Price)).
+
+	
+@r2
++room(Name, Type, stars(Stars), Price)
+	:	true
+	<-	.println(room(Name, Type, stars(Stars), Price)).
+
+	
+	
+/* show results */
+@show
++!show(results)	: true
+	<-	.findall(hotel(Price, Name), room(Name,double,_, Price), L);
+		.min(L, hotel(MinPrice, NameH));
+		.println("El precio mejor es: ", MinPrice," en ", NameH).

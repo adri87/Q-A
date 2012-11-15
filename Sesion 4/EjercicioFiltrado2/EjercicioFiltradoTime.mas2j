@@ -1,0 +1,16 @@
+/*
+    Jason Project
+
+    -- create on March 27, 2012
+*/
+
+MAS ejerciciofiltradotime {
+   infrastructure: Centralised
+
+   environment: TestEnv
+
+   agents:
+       sample;
+
+   aslSourcePath: "src/asl"; 
+}

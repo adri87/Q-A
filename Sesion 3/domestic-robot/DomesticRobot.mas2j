@@ -1,0 +1,15 @@
+/* 
+
+--  Domestic Robot
+
+*/
+
+MAS domestic_robot {
+
+    environment: HouseEnv(gui) 
+
+    agents: robot;
+            owner;
+            supermarket agentArchClass SupermarketArch;
+}
+

@@ -1,0 +1,108 @@
+######Sacar los titulares de un periódico
+get("http://abc.es", function(result) {
+  $(result).find("h3.headline a").each(function() {    	// El headline es la clase que lleva asociada la etiqueta, y si coge la etiqueta "a"
+    println($(this).text());				// Aqui ponemos sacar cualquier atributo que lleve asociada la etiqueta a poniento $(this).attr(LO QUE QUIERA)
+  });
+});
+
+
+
+
+######Sacar el contenido de cada una de las noticias de la portada de un periódico
+get("http://abc.es", function(result) {
+  $(result).find("h3.headline a").each(function() {
+    var url = "http://abc.es" + $(this).attr("href");		// Creamos una nueva variable con la dirección de cada noticia que vamos a introducir en un nuevo getter
+    get(url, function(result) {
+      println($(result).find("div.text p.p").text());		// No hacemos each porque solo lo ejecutamos una vez en cada página y directamente sacamos el texto p.p señala
+      println("-----------");					// el parráfo y su clase 
+    });
+  });
+});
+
+
+
+
+#######Buscar la noticia más comentada de http://barrapunto.com
+urls = {};
+levels = 10; // Se visitan hasta 10 subniveles
+parse = function(result) {
+  $(result).find(".storylinks").each(function() {
+    var node = $(this).find("li.more a").first();			// El primero que encuentre
+    var url = "http:" + node.attr("href");				// ATENCION A LA FORMA CURIOSA DE LLAMANAR MEDIANTE VARIABLES
+    var comments = $(this).find(".comments a").last().text();
+    if (comments)
+      comments = parseInt(comments);
+    else
+      comments = 0;
+    
+    urls[url] = comments;
+  });
+  if (levels > 0) {
+    /* Hay que visitar más páginas */
+    levels--;
+    var url = "http:" + $(result).find("#articles a").last().attr("href");
+    println("Visitando " + url);
+    get(url, parse);								// Atención a la forma de repetir el bucle es mediante llamadas iterativas
+  } else {
+    /* Ya hemos visitado suficientes páginas */
+    var max_comments = -1;
+    var best_url = null;
+    for (var url in urls) {				// ATENCION a como se hacen los for aqui :)
+      if (urls.hasOwnProperty(url)) {
+        if(urls[url] > max_comments) {
+          best_url = url;
+          max_comments = urls[url];
+        }
+      }
+    }
+    println(best_url);
+    println(max_comments + " comentarios");
+  }
+};
+println("Visitando http://barrapunto.com");
+get("http://barrapunto.com", parse);
+
+
+
+
+############¿Qué libros ha escrito Shakespeare?
+
+select ?libro
+where {
+  ?libro dbpedia-owl:author dbpedia:William_Shakespeare .
+}
+
+
+
+
+############¿Cuáles son las capitales de Europa?
+
+select ?ciudad
+where {
+  ?ciudad rdf:type yago:CapitalsInEurope .
+}
+
+
+
+
+###########¿Qué tienen en común Cervantes y Shakespeare?
+
+select ?predicado ?objeto
+where {
+  dbpedia:William_Shakespeare ?predicado ?objeto .
+  dbpedia:Miguel_de_Cervantes ?predicado ?objeto .
+}
+
+
+
+
+############¿Qué estilos de rock existen? Ojo a subestilos
+
+select ?estilo
+where {
+  { dbpedia:Rock_music dbpedia-owl:derivative ?estilo . }		// sacamos sus estilos derivados
+  union {
+    dbpedia:Rock_music dbpedia-owl:derivative ?estilo_intermedio .
+    ?estilo_intermedio dbpedia-owl:derivative ?estilo .			// y los derivados de estos
+  }
+}

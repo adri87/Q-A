@@ -1,0 +1,1872 @@
+------------------------------------------------------------------------
+r2109 | paumier | 2011-02-02 16:45:26 +0100 (Wed, 02 Feb 2011) | 1 line
+
+Removing close icon from text frames
+------------------------------------------------------------------------
+r2095 | paumier | 2011-01-20 12:45:56 +0100 (Thu, 20 Jan 2011) | 1 line
+
+Bug fix in Malagasy: the table view of the tfst did not show the first token if the analysis started by an empty morpheme
+------------------------------------------------------------------------
+r2094 | paumier | 2011-01-20 12:37:39 +0100 (Thu, 20 Jan 2011) | 1 line
+
+Bug fix for Malagasy: some transitions were incorrectly drawn with dash lines
+------------------------------------------------------------------------
+r2093 | paumier | 2011-01-20 12:30:46 +0100 (Thu, 20 Jan 2011) | 1 line
+
+Bug fix: no exception is raised anymore on empty sentence automata
+------------------------------------------------------------------------
+r2092 | paumier | 2011-01-20 12:21:48 +0100 (Thu, 20 Jan 2011) | 1 line
+
+Bug fix: sentence automaton was not refreshed when reconstructing tfst
+------------------------------------------------------------------------
+r2084 | paumier | 2011-01-17 10:17:16 +0100 (Mon, 17 Jan 2011) | 1 line
+
+Any unknown system will be assumed to be a linux-like one
+------------------------------------------------------------------------
+r2083 | paumier | 2011-01-15 18:15:37 +0100 (Sat, 15 Jan 2011) | 1 line
+
+Any version of Windows will be recognized and supported by Unitex
+------------------------------------------------------------------------
+r2081 | paumier | 2011-01-13 10:58:18 +0100 (Thu, 13 Jan 2011) | 1 line
+
+Bug fix: dela frame did not reappear after a sort 
+------------------------------------------------------------------------
+r2080 | paumier | 2011-01-13 10:49:58 +0100 (Thu, 13 Jan 2011) | 1 line
+
+Fixing exception raised when trying to open a subgraph by alt-clicking on an empty box  
+------------------------------------------------------------------------
+r2079 | paumier | 2011-01-13 10:46:39 +0100 (Thu, 13 Jan 2011) | 1 line
+
+Bug fix around dragging multiple box selections
+------------------------------------------------------------------------
+r2060 | paumier | 2011-01-03 12:03:42 +0100 (Mon, 03 Jan 2011) | 1 line
+
+Updating copyright
+------------------------------------------------------------------------
+r2054 | friburger | 2010-12-22 09:45:39 +0100 (Wed, 22 Dec 2010) | 1 line
+
+Adding a file filter csc for the cassys frame
+------------------------------------------------------------------------
+r2051 | friburger | 2010-12-21 17:31:25 +0100 (Tue, 21 Dec 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r2027 | paumier | 2010-12-15 11:28:14 +0100 (Wed, 15 Dec 2010) | 1 line
+
+Bug fix in text automaton frame
+------------------------------------------------------------------------
+r1968 | paumier | 2010-11-30 14:16:24 +0100 (Tue, 30 Nov 2010) | 1 line
+
+Adding Untokenize in the "Help on commands" frame
+------------------------------------------------------------------------
+r1961 | paumier | 2010-11-29 15:14:56 +0100 (Mon, 29 Nov 2010) | 1 line
+
+Bug fix in Text FST table display
+------------------------------------------------------------------------
+r1952 | paumier | 2010-11-26 16:37:57 +0100 (Fri, 26 Nov 2010) | 1 line
+
+Bug fix in GUI
+------------------------------------------------------------------------
+r1949 | paumier | 2010-11-26 15:40:44 +0100 (Fri, 26 Nov 2010) | 1 line
+
+Updating TextDicFrame to show tags_err content
+------------------------------------------------------------------------
+r1947 | paumier | 2010-11-24 13:14:12 +0100 (Wed, 24 Nov 2010) | 1 line
+
+Text FST is rendered with the text right-to-left attribute, instead of the graph right-to-left attribute
+------------------------------------------------------------------------
+r1943 | orlov | 2010-11-23 03:04:29 +0100 (Tue, 23 Nov 2010) | 5 lines
+
+Made some declarations final
+ - like the previous bulk change this is merely a syntactic change and can't affect any app logic
+ - improves style an memory management
+
+
+------------------------------------------------------------------------
+r1942 | orlov | 2010-11-23 02:51:35 +0100 (Tue, 23 Nov 2010) | 1 line
+
+Declaration access can be weaker: public > local > private
+------------------------------------------------------------------------
+r1940 | sigogne | 2010-11-22 11:19:00 +0100 (Mon, 22 Nov 2010) | 1 line
+
+Tagger : modify default data filename for tagger ('raw' -> 'cat').
+------------------------------------------------------------------------
+r1926 | sigogne | 2010-11-14 23:57:56 +0100 (Sun, 14 Nov 2010) | 1 line
+
+Tagger : modify default data filename for tagger .
+------------------------------------------------------------------------
+r1914 | paumier | 2010-11-11 11:41:17 +0100 (Thu, 11 Nov 2010) | 1 line
+
+Bug fix in GUI: files sentenceXXX.grf were removed before invoking RebuildTfst, causing it to do nothing
+------------------------------------------------------------------------
+r1913 | paumier | 2010-11-10 11:57:05 +0100 (Wed, 10 Nov 2010) | 1 line
+
+Adding TrainingTagger in GUI, but just in the command list
+------------------------------------------------------------------------
+r1909 | paumier | 2010-10-27 11:59:17 +0200 (Wed, 27 Oct 2010) | 1 line
+
+Moving operations in some XXXCommand constructors that produced bad display in the "Help on command" frame
+------------------------------------------------------------------------
+r1900 | paumier | 2010-10-18 15:53:15 +0200 (Mon, 18 Oct 2010) | 1 line
+
+Adding support for "Cassys" directory
+------------------------------------------------------------------------
+r1897 | paumier | 2010-10-15 16:14:49 +0200 (Fri, 15 Oct 2010) | 1 line
+
+Bug fix
+------------------------------------------------------------------------
+r1886 | friburger | 2010-10-11 17:18:56 +0200 (Mon, 11 Oct 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r1883 | friburger | 2010-10-11 14:12:49 +0200 (Mon, 11 Oct 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r1853 | paumier | 2010-09-23 14:16:51 +0200 (Thu, 23 Sep 2010) | 1 line
+
+Scrollbar position is correct in text automaton frame for right-to-left languages
+------------------------------------------------------------------------
+r1845 | paumier | 2010-09-20 18:01:59 +0200 (Mon, 20 Sep 2010) | 1 line
+
+And the missing parts of previous commit...
+------------------------------------------------------------------------
+r1844 | paumier | 2010-09-20 18:01:33 +0200 (Mon, 20 Sep 2010) | 1 line
+
+Bug fix in XAlign Locate frame
+------------------------------------------------------------------------
+r1839 | paumier | 2010-09-20 14:49:50 +0200 (Mon, 20 Sep 2010) | 1 line
+
+Fix scrollbar position bug for right-to-left languages
+------------------------------------------------------------------------
+r1837 | paumier | 2010-09-20 10:51:47 +0200 (Mon, 20 Sep 2010) | 1 line
+
+Changing layout in global preference frame
+------------------------------------------------------------------------
+r1834 | paumier | 2010-09-20 10:04:40 +0200 (Mon, 20 Sep 2010) | 1 line
+
+Adapting GUI to new -m option style in Dico and Locate
+------------------------------------------------------------------------
+r1825 | paumier | 2010-09-17 16:24:37 +0200 (Fri, 17 Sep 2010) | 1 line
+
+Bug fix in XAlign configuration
+------------------------------------------------------------------------
+r1824 | paumier | 2010-09-17 15:46:03 +0200 (Fri, 17 Sep 2010) | 3 lines
+
+Splitting "right to left" property into two:
+- one for text rendering
+- one for graph rendering
+------------------------------------------------------------------------
+r1820 | paumier | 2010-09-17 12:59:57 +0200 (Fri, 17 Sep 2010) | 1 line
+
+Adding missing -u to LocateCommand
+------------------------------------------------------------------------
+r1818 | paumier | 2010-09-17 12:27:16 +0200 (Fri, 17 Sep 2010) | 1 line
+
+Adding transliteration frame
+------------------------------------------------------------------------
+r1816 | paumier | 2010-09-17 10:24:36 +0200 (Fri, 17 Sep 2010) | 1 line
+
+Bug fix in GUI
+------------------------------------------------------------------------
+r1815 | paumier | 2010-09-17 09:20:39 +0200 (Fri, 17 Sep 2010) | 1 line
+
+Updating GUI to support the semitic option
+------------------------------------------------------------------------
+r1809 | paumier | 2010-09-16 12:24:35 +0200 (Thu, 16 Sep 2010) | 1 line
+
+Adding checks to avoid crashing Unitex when loading a corrupted .grf file
+------------------------------------------------------------------------
+r1804 | friburger | 2010-09-05 19:04:28 +0200 (Sun, 05 Sep 2010) | 1 line
+
+Close / open frame cassys bug fix
+------------------------------------------------------------------------
+r1795 | paumier | 2010-08-30 16:44:47 +0200 (Mon, 30 Aug 2010) | 1 line
+
+Warning removal
+------------------------------------------------------------------------
+r1794 | paumier | 2010-08-30 16:41:09 +0200 (Mon, 30 Aug 2010) | 1 line
+
+Adding a test for corrupted empty boxes
+------------------------------------------------------------------------
+r1793 | orlov | 2010-08-22 09:55:41 +0200 (Sun, 22 Aug 2010) | 1 line
+
+Redundant type cast removed.
+------------------------------------------------------------------------
+r1792 | orlov | 2010-08-22 09:52:25 +0200 (Sun, 22 Aug 2010) | 1 line
+
+Simplified boolean expressions.
+------------------------------------------------------------------------
+r1755 | friburger | 2010-07-19 15:08:06 +0200 (Mon, 19 Jul 2010) | 1 line
+
+Added warning and message errors while reading a transducer list file
+------------------------------------------------------------------------
+r1747 | orlov | 2010-07-14 09:36:09 +0200 (Wed, 14 Jul 2010) | 3 lines
+
+Unnecessary boxing removed:
+
+* "true" has the same effect as "new Boolean(true)" but is less obfuscated
+------------------------------------------------------------------------
+r1746 | orlov | 2010-07-13 19:53:38 +0200 (Tue, 13 Jul 2010) | 3 lines
+
+Redundant String constructors removed (affecting memory consumption)
+
+* use 'return "value"' INSTEAD OF 'return new String("value")'
+------------------------------------------------------------------------
+r1745 | friburger | 2010-07-13 17:48:48 +0200 (Tue, 13 Jul 2010) | 1 line
+
+File edition detector bug fixed
+------------------------------------------------------------------------
+r1744 | friburger | 2010-07-13 17:22:21 +0200 (Tue, 13 Jul 2010) | 1 line
+
+Suppressed the 'new' button and added an error message in graph selection frame for Cassys 
+------------------------------------------------------------------------
+r1732 | friburger | 2010-07-09 11:46:27 +0200 (Fri, 09 Jul 2010) | 1 line
+
+Frame title Bug fix in cassys transducer frame selection
+------------------------------------------------------------------------
+r1728 | paumier | 2010-07-08 16:21:29 +0200 (Thu, 08 Jul 2010) | 1 line
+
+Bug fix: Ctrl+A and Ctrl+C in console copy the commands again and not the log numbers
+------------------------------------------------------------------------
+r1726 | paumier | 2010-07-08 11:46:57 +0200 (Thu, 08 Jul 2010) | 1 line
+
+Removing error introduced for test
+------------------------------------------------------------------------
+r1725 | paumier | 2010-07-08 11:39:40 +0200 (Thu, 08 Jul 2010) | 1 line
+
+Bug fix
+------------------------------------------------------------------------
+r1723 | paumier | 2010-07-08 10:50:19 +0200 (Thu, 08 Jul 2010) | 1 line
+
+Committing a java error to test error alert
+------------------------------------------------------------------------
+r1722 | paumier | 2010-07-08 10:49:38 +0200 (Thu, 08 Jul 2010) | 1 line
+
+Warning fix
+------------------------------------------------------------------------
+r1714 | paumier | 2010-07-07 13:49:23 +0200 (Wed, 07 Jul 2010) | 1 line
+
+Bug fix: graph paths were not displayed anymore in graph frame title bars
+------------------------------------------------------------------------
+r1707 | friburger | 2010-07-06 18:27:18 +0200 (Tue, 06 Jul 2010) | 19 lines
+
+Add of graphical of Cassys :
+Package cassys + class CassysFrame + class TransducerListConfigurationFrame in package frames + class CassysCommand in package process.commands
+
+Changes on original ressource :
+
+Config.java :
+added 
+private static File cassysDir; with setter and getter
+private static File currentTransducerList; with setter and getter
+private static JFileChooser transducerListDialogBox; with getter_creator
+in method setCurrentLanguage -- added cassysDir change
+
+UnitexFrame.java:
+MenuItem CassysItem with its AbstractAction cassys
+cassys setEnabled when text opened and disabled when closed
+
+InternalFrameManager.java:
+cassysFrameFactory with new and close
+transducerListConfigurationFrameFactory with new and close
+------------------------------------------------------------------------
+r1702 | paumier | 2010-07-06 14:00:35 +0200 (Tue, 06 Jul 2010) | 1 line
+
+Bug fix in graph editor
+------------------------------------------------------------------------
+r1697 | paumier | 2010-07-06 09:51:27 +0200 (Tue, 06 Jul 2010) | 1 line
+
+Changing (...) + (...) to (...)|(...) when exporting text automaton as tagged text
+------------------------------------------------------------------------
+r1688 | paumier | 2010-07-03 18:05:57 +0200 (Sat, 03 Jul 2010) | 1 line
+
+Bug fix
+------------------------------------------------------------------------
+r1684 | paumier | 2010-07-03 16:11:02 +0200 (Sat, 03 Jul 2010) | 1 line
+
+Ensure that all tfst related files are deleted when the tfst is about to be (re)built
+------------------------------------------------------------------------
+r1683 | paumier | 2010-07-03 16:05:37 +0200 (Sat, 03 Jul 2010) | 1 line
+
+Adding missing fires
+------------------------------------------------------------------------
+r1680 | paumier | 2010-07-03 15:20:36 +0200 (Sat, 03 Jul 2010) | 1 line
+
+Changing default ant target
+------------------------------------------------------------------------
+r1678 | paumier | 2010-07-03 15:13:16 +0200 (Sat, 03 Jul 2010) | 1 line
+
+Refreshing morphological dictionary list when language changes
+------------------------------------------------------------------------
+r1676 | paumier | 2010-07-03 12:12:36 +0200 (Sat, 03 Jul 2010) | 1 line
+
+Modifying output format when exporting text automaton as a tag list
+------------------------------------------------------------------------
+r1671 | paumier | 2010-07-03 08:31:46 +0200 (Sat, 03 Jul 2010) | 1 line
+
+Commenting all modifications related to lexical path repository
+------------------------------------------------------------------------
+r1670 | paumier | 2010-07-03 08:24:03 +0200 (Sat, 03 Jul 2010) | 1 line
+
+Removing annotion
+------------------------------------------------------------------------
+r1669 | paumier | 2010-07-02 09:51:06 +0200 (Fri, 02 Jul 2010) | 1 line
+
+Warning fix
+------------------------------------------------------------------------
+r1668 | paumier | 2010-07-02 09:50:32 +0200 (Fri, 02 Jul 2010) | 1 line
+
+Warning fix
+------------------------------------------------------------------------
+r1667 | orlov | 2010-07-01 12:25:56 +0200 (Thu, 01 Jul 2010) | 1 line
+
+Added a global preference to set the "lexical graph repository" anologous to the global "graph repository" (a feature asked by many Unitex users)
+------------------------------------------------------------------------
+r1666 | orlov | 2010-07-01 09:54:52 +0200 (Thu, 01 Jul 2010) | 1 line
+
+FIXED "this.xxx=.... warning" by removing a file recently addedd which basically was a skeleton for further app logic
+------------------------------------------------------------------------
+r1665 | paumier | 2010-06-30 17:11:51 +0200 (Wed, 30 Jun 2010) | 1 line
+
+Bug fix about splash screen display
+------------------------------------------------------------------------
+r1664 | orlov | 2010-06-30 11:48:50 +0200 (Wed, 30 Jun 2010) | 2 lines
+
++ Made simple "ERROR" messages more verbose
++ Tryed to speedup startup time by declaring some objects as final
+------------------------------------------------------------------------
+r1662 | orlov | 2010-06-28 20:16:10 +0200 (Mon, 28 Jun 2010) | 3 lines
+
+Multicore capability skeleton added (not yet activated)
+
+* one additional file MulticoreCapability.java added which is referenced by PreprocessDialog.java (commented code line)
+------------------------------------------------------------------------
+r1661 | orlov | 2010-06-28 19:39:21 +0200 (Mon, 28 Jun 2010) | 2 lines
+
++ Each class should be placed in a separate file (PreprocessDo file added)
++ Added mnemonics to the PreprocessDialog
+------------------------------------------------------------------------
+r1660 | orlov | 2010-06-28 13:23:54 +0200 (Mon, 28 Jun 2010) | 1 line
+
+Reapplied code consolidation that was accidently overwritten in a previous commit
+------------------------------------------------------------------------
+r1659 | orlov | 2010-06-28 13:20:38 +0200 (Mon, 28 Jun 2010) | 1 line
+
+Consolidation of pre Java 5 syntax
+------------------------------------------------------------------------
+r1658 | paumier | 2010-06-28 09:44:51 +0200 (Mon, 28 Jun 2010) | 1 line
+
+Tfst tags stats have been integrated in GUI
+------------------------------------------------------------------------
+r1656 | paumier | 2010-06-28 05:57:21 +0200 (Mon, 28 Jun 2010) | 1 line
+
+Bug fix: when clicking not on a box, if no boxes were selected, the graph does not become "Unsaved"
+------------------------------------------------------------------------
+r1655 | paumier | 2010-06-28 05:53:13 +0200 (Mon, 28 Jun 2010) | 1 line
+
+After "Apply lexical resources" on Korean, the text automaton is automatically rebuilt 
+------------------------------------------------------------------------
+r1654 | paumier | 2010-06-28 05:46:58 +0200 (Mon, 28 Jun 2010) | 1 line
+
+Adding BuildKrMwuDic to GUI
+------------------------------------------------------------------------
+r1651 | paumier | 2010-06-28 04:48:59 +0200 (Mon, 28 Jun 2010) | 1 line
+
+And removing debug prints
+------------------------------------------------------------------------
+r1650 | paumier | 2010-06-28 04:47:48 +0200 (Mon, 28 Jun 2010) | 1 line
+
+Fix drap and drop bug under Linux/gnome
+------------------------------------------------------------------------
+r1646 | paumier | 2010-06-27 16:14:38 +0200 (Sun, 27 Jun 2010) | 1 line
+
+Bug fix
+------------------------------------------------------------------------
+r1643 | orlov | 2010-06-27 07:50:20 +0200 (Sun, 27 Jun 2010) | 4 lines
+
+Added IntelliJ IDEA project meta-data:
+
+/.idea
+/Unitex-Java.iml
+------------------------------------------------------------------------
+r1635 | paumier | 2010-06-26 09:07:06 +0200 (Sat, 26 Jun 2010) | 2 lines
+
+Adding to GUI support for output variables like $|aaa(
+Some of previous modifications have been undone due to diff problems with eclipse
+------------------------------------------------------------------------
+r1632 | orlov | 2010-06-26 04:21:30 +0200 (Sat, 26 Jun 2010) | 3 lines
+
++ Strings should be compared with equals()
+
++ Unused and empty method deleted
+------------------------------------------------------------------------
+r1631 | orlov | 2010-06-26 04:11:21 +0200 (Sat, 26 Jun 2010) | 1 line
+
+Consolidation of a few further IF statements
+------------------------------------------------------------------------
+r1630 | orlov | 2010-06-26 01:50:16 +0200 (Sat, 26 Jun 2010) | 3 lines
+
+Replaced some FOR loops with appropriate "FOR EACH" loops which are supported since Java 5
+
+- makes the code short, easier to read & understand and hence better maintainable
+------------------------------------------------------------------------
+r1629 | orlov | 2010-06-26 01:28:07 +0200 (Sat, 26 Jun 2010) | 3 lines
+
+Simplified boolean expresions
+
+e.g.: if(booleanVar == true) to  if(booleanVar)
+------------------------------------------------------------------------
+r1628 | orlov | 2010-06-26 01:13:36 +0200 (Sat, 26 Jun 2010) | 1 line
+
+Void methods don't need any "return" directives in Java
+------------------------------------------------------------------------
+r1627 | orlov | 2010-06-25 18:49:23 +0200 (Fri, 25 Jun 2010) | 3 lines
+
+Redundant IF statements removed:
+
+- syntactical code consolidation: no app logic affected
+------------------------------------------------------------------------
+r1626 | orlov | 2010-06-25 08:11:32 +0200 (Fri, 25 Jun 2010) | 5 lines
+
+Performance issue: Consistent string concatenation (replaced "+" in StringBuilder by append)
+
++ also:
+- Unnecessary temporary object creation removed
+- Minor code-style changes
+------------------------------------------------------------------------
+r1624 | orlov | 2010-06-24 03:47:04 +0200 (Thu, 24 Jun 2010) | 6 lines
+
+IDE inspection performance/code style improvement proposal applied (many files affected): declared variables as final. It's a safe change as app logic can't be affected.
+
+  * declaring variables as final has following impacts 
+                o may improve performance
+                o makes the code better readable (no second assignment)
+                o increases code security (no second assignment)
+------------------------------------------------------------------------
+r1623 | orlov | 2010-06-24 03:28:36 +0200 (Thu, 24 Jun 2010) | 1 line
+
+Unnecessary unboxing removed; not necessary since Java 5
+------------------------------------------------------------------------
+r1622 | orlov | 2010-06-24 03:21:38 +0200 (Thu, 24 Jun 2010) | 1 line
+
+Unnecessary boxing removed; not necessary since Java 5
+------------------------------------------------------------------------
+r1621 | orlov | 2010-06-24 03:12:49 +0200 (Thu, 24 Jun 2010) | 2 lines
+
+Performance issue: Replaced redundant String constructor
+String s = new String("string") by String s = "string"
+------------------------------------------------------------------------
+r1620 | orlov | 2010-06-24 02:40:17 +0200 (Thu, 24 Jun 2010) | 4 lines
+
+Updated libs from Xerces 2.6.0 to recently published Xerces 2.10.0 (API compatibile)
+
+- some deprecation warnings are the result but they don't affect the functionality
+
+------------------------------------------------------------------------
+r1617 | paumier | 2010-06-23 14:02:34 +0200 (Wed, 23 Jun 2010) | 1 line
+
+Adding new visualization mode for text automaton
+------------------------------------------------------------------------
+r1616 | orlov | 2010-06-20 19:12:07 +0200 (Sun, 20 Jun 2010) | 1 line
+
+Performance issue: Avoid creation of unnecessary temporary objects => replaced "NEW Integer(intNumber).intValue()" by "Integer.valueOf(intNumber)"
+------------------------------------------------------------------------
+r1615 | orlov | 2010-06-20 18:36:34 +0200 (Sun, 20 Jun 2010) | 1 line
+
+Performance issue: Replaced "new Boolean(false)" through "Boolean.FALSE"
+------------------------------------------------------------------------
+r1614 | orlov | 2010-06-20 18:15:26 +0200 (Sun, 20 Jun 2010) | 1 line
+
+Declaring "private" or "static" methods as "final" is redundant as private/static methods cannot be overriden
+------------------------------------------------------------------------
+r1613 | orlov | 2010-06-19 18:44:09 +0200 (Sat, 19 Jun 2010) | 1 line
+
+Performance issue: replaced a manual array copy by a system built-in array copy method
+------------------------------------------------------------------------
+r1612 | orlov | 2010-06-19 18:23:57 +0200 (Sat, 19 Jun 2010) | 1 line
+
+IDE's code analysis report: "field can be local" => reduced the scope of some global variables (reduces memory usage); automatic IDE-driven import optimization
+------------------------------------------------------------------------
+r1607 | orlov | 2010-06-18 18:59:23 +0200 (Fri, 18 Jun 2010) | 1 line
+
+generic code optimizations and significant code cleanup to improve maintainability
+------------------------------------------------------------------------
+r1605 | paumier | 2010-06-18 16:27:08 +0200 (Fri, 18 Jun 2010) | 1 line
+
+GUI uses arabic_typo_rules.txt for Dico
+------------------------------------------------------------------------
+r1603 | paumier | 2010-06-18 15:28:46 +0200 (Fri, 18 Jun 2010) | 1 line
+
+Adding option --pkgdir to MultiFlex in GUI
+------------------------------------------------------------------------
+r1591 | paumier | 2010-06-15 20:56:12 +0200 (Tue, 15 Jun 2010) | 1 line
+
+Bug fix in GUI: some text automaton transitions were not displayed with dash stroke as they should have been
+------------------------------------------------------------------------
+r1582 | paumier | 2010-06-07 13:34:45 +0200 (Mon, 07 Jun 2010) | 1 line
+
+Adding shortcuts
+------------------------------------------------------------------------
+r1581 | paumier | 2010-06-07 13:31:22 +0200 (Mon, 07 Jun 2010) | 1 line
+
+Concordance frame is not shown when there is no match
+------------------------------------------------------------------------
+r1579 | paumier | 2010-06-07 12:58:57 +0200 (Mon, 07 Jun 2010) | 1 line
+
+Bug fix
+------------------------------------------------------------------------
+r1571 | paumier | 2010-06-02 16:08:06 +0200 (Wed, 02 Jun 2010) | 1 line
+
+Introducing log system in GUI
+------------------------------------------------------------------------
+r1568 | paumier | 2010-06-02 10:48:57 +0200 (Wed, 02 Jun 2010) | 1 line
+
+Users can configure their private directory on non-Windows systems
+------------------------------------------------------------------------
+r1567 | paumier | 2010-06-01 13:52:35 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Closing XAlign locate frame when closing XAlign frame
+------------------------------------------------------------------------
+r1566 | paumier | 2010-06-01 13:46:51 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Introducing LanguageListener
+------------------------------------------------------------------------
+r1565 | paumier | 2010-06-01 13:23:38 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Creating packages
+------------------------------------------------------------------------
+r1564 | paumier | 2010-06-01 13:06:51 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Merging loadGraph and loadSentenceGraph
+------------------------------------------------------------------------
+r1563 | paumier | 2010-06-01 12:30:03 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Cleaning code about graph zones
+------------------------------------------------------------------------
+r1562 | paumier | 2010-06-01 12:13:26 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Removing Edit menu and special cut/copy/paste/select all operations in TfstTextField
+------------------------------------------------------------------------
+r1561 | paumier | 2010-06-01 11:54:51 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Replacing some calls to mkdir() by MkdirCommand
+------------------------------------------------------------------------
+r1560 | paumier | 2010-06-01 11:48:58 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Cleaning ListCopyDialog
+------------------------------------------------------------------------
+r1559 | paumier | 2010-06-01 10:21:05 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Removing TODO
+------------------------------------------------------------------------
+r1558 | paumier | 2010-06-01 09:48:21 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Bug fix in TextAutomatonFrame
+------------------------------------------------------------------------
+r1557 | paumier | 2010-06-01 09:16:38 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Removing TODOs
+------------------------------------------------------------------------
+r1556 | paumier | 2010-06-01 08:58:24 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Using a stroke to draw graph frames
+------------------------------------------------------------------------
+r1555 | paumier | 2010-06-01 08:48:34 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Removing class ColorRectangle
+------------------------------------------------------------------------
+r1554 | paumier | 2010-06-01 08:44:27 +0200 (Tue, 01 Jun 2010) | 1 line
+
+Removing bounds rendering
+------------------------------------------------------------------------
+r1553 | paumier | 2010-05-31 11:07:13 +0200 (Mon, 31 May 2010) | 1 line
+
+Updating build.xml
+------------------------------------------------------------------------
+r1552 | paumier | 2010-05-28 07:23:53 +0200 (Fri, 28 May 2010) | 1 line
+
+Minor change in build.xml
+------------------------------------------------------------------------
+r1551 | paumier | 2010-05-27 14:43:18 +0200 (Thu, 27 May 2010) | 1 line
+
+Replacing paints by fire...
+------------------------------------------------------------------------
+r1550 | paumier | 2010-05-27 14:23:08 +0200 (Thu, 27 May 2010) | 1 line
+
+Adding missing @Override annotations
+------------------------------------------------------------------------
+r1549 | paumier | 2010-05-27 13:17:23 +0200 (Thu, 27 May 2010) | 1 line
+
+Some more cleaning
+------------------------------------------------------------------------
+r1548 | paumier | 2010-05-27 12:31:01 +0200 (Thu, 27 May 2010) | 1 line
+
+Cleaning things around graphical zones
+------------------------------------------------------------------------
+r1547 | paumier | 2010-05-27 10:05:25 +0200 (Thu, 27 May 2010) | 1 line
+
+Moving listeners in a dedicated package+minor cleaning
+------------------------------------------------------------------------
+r1546 | paumier | 2010-05-26 17:35:48 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning UnitexFrame
+------------------------------------------------------------------------
+r1545 | paumier | 2010-05-26 12:09:49 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning XAlignLocateFrame
+------------------------------------------------------------------------
+r1544 | paumier | 2010-05-26 12:08:14 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning XAlignFrame
+------------------------------------------------------------------------
+r1543 | paumier | 2010-05-26 11:14:38 +0200 (Wed, 26 May 2010) | 2 lines
+
+Cleaning XAlignConfigFrame
++ ToDo are executed in the Swing Thread
+------------------------------------------------------------------------
+r1542 | paumier | 2010-05-26 11:08:15 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning TranscodingFrame
+------------------------------------------------------------------------
+r1541 | paumier | 2010-05-26 11:04:42 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning TokensFrame
+------------------------------------------------------------------------
+r1540 | paumier | 2010-05-26 11:03:43 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning TextDicFrame
+------------------------------------------------------------------------
+r1539 | paumier | 2010-05-26 10:48:18 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning TextAutomatonFrame
+------------------------------------------------------------------------
+r1538 | paumier | 2010-05-26 10:19:40 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning StatisticsFrame
+------------------------------------------------------------------------
+r1537 | paumier | 2010-05-26 10:18:08 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning ProcessInfoFrame
+------------------------------------------------------------------------
+r1536 | paumier | 2010-05-26 10:09:40 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning PreprocessDialog
+------------------------------------------------------------------------
+r1535 | paumier | 2010-05-26 08:53:14 +0200 (Wed, 26 May 2010) | 1 line
+
+Cleaning MessageWhileWorkingFrame
+------------------------------------------------------------------------
+r1534 | paumier | 2010-05-23 17:32:47 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning LocateFrame
+------------------------------------------------------------------------
+r1533 | paumier | 2010-05-23 17:27:08 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ConvertLexiconGrammarFrame
+------------------------------------------------------------------------
+r1532 | paumier | 2010-05-23 17:15:12 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning InflectFrame
+------------------------------------------------------------------------
+r1531 | paumier | 2010-05-23 17:12:34 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning GraphSizeDialog
+------------------------------------------------------------------------
+r1530 | paumier | 2010-05-23 17:07:24 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning GraphPresentationDialog
+------------------------------------------------------------------------
+r1529 | paumier | 2010-05-23 17:04:16 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning GraphPathDialog
+------------------------------------------------------------------------
+r1528 | paumier | 2010-05-23 17:02:03 +0200 (Sun, 23 May 2010) | 1 line
+
+Bug fix about right to left rendering in graphs
+------------------------------------------------------------------------
+r1527 | paumier | 2010-05-23 16:57:43 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning GraphFrame
+------------------------------------------------------------------------
+r1526 | paumier | 2010-05-23 16:45:16 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning GraphCollectionFrame
+------------------------------------------------------------------------
+r1525 | paumier | 2010-05-23 16:40:26 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning GlobalPreferencesFrame, moving font listener management to Preferences
+------------------------------------------------------------------------
+r1524 | paumier | 2010-05-23 16:24:46 +0200 (Sun, 23 May 2010) | 1 line
+
+Minor cleaning
+------------------------------------------------------------------------
+r1523 | paumier | 2010-05-23 16:22:15 +0200 (Sun, 23 May 2010) | 1 line
+
+Hiding action text for icon buttons
+------------------------------------------------------------------------
+r1522 | paumier | 2010-05-23 16:13:22 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning FileEditionTextFrame
+------------------------------------------------------------------------
+r1521 | paumier | 2010-05-23 15:58:20 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ElagCompFrame
+------------------------------------------------------------------------
+r1520 | paumier | 2010-05-23 15:46:58 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning DelaFrame
+------------------------------------------------------------------------
+r1519 | paumier | 2010-05-23 15:44:22 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ConvertTfstToTextFrame
+------------------------------------------------------------------------
+r1518 | paumier | 2010-05-23 15:42:54 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ConvertLexiconGrammarFrame
+------------------------------------------------------------------------
+r1517 | paumier | 2010-05-23 15:40:36 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ConstructTfstFrame
+------------------------------------------------------------------------
+r1516 | paumier | 2010-05-23 15:34:17 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ConsoleFrame
+------------------------------------------------------------------------
+r1515 | paumier | 2010-05-23 15:33:00 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ConcordanceParameterFrame
+------------------------------------------------------------------------
+r1514 | paumier | 2010-05-23 15:16:44 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ConcordanceFrame
+------------------------------------------------------------------------
+r1513 | paumier | 2010-05-23 15:15:00 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ConcordanceDiffFrame
+------------------------------------------------------------------------
+r1512 | paumier | 2010-05-23 15:13:35 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning CheckResultFrame
+------------------------------------------------------------------------
+r1511 | paumier | 2010-05-23 15:11:50 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning CheckDicFrame
+------------------------------------------------------------------------
+r1510 | paumier | 2010-05-23 14:34:26 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning ApplyLexicalResourcesFrame
+------------------------------------------------------------------------
+r1509 | paumier | 2010-05-23 14:28:15 +0200 (Sun, 23 May 2010) | 1 line
+
+Cleaning AboutUnitexFrame
+------------------------------------------------------------------------
+r1508 | paumier | 2010-05-23 14:26:28 +0200 (Sun, 23 May 2010) | 1 line
+
+Checking that no frame constructor is called bypassing the factory system
+------------------------------------------------------------------------
+r1507 | paumier | 2010-05-23 14:17:47 +0200 (Sun, 23 May 2010) | 1 line
+
+Refactoring frame&dialog factories
+------------------------------------------------------------------------
+r1506 | paumier | 2010-05-23 12:01:00 +0200 (Sun, 23 May 2010) | 1 line
+
+Removing warnings
+------------------------------------------------------------------------
+r1505 | paumier | 2010-05-23 11:32:22 +0200 (Sun, 23 May 2010) | 1 line
+
+Avoiding implicit values in command parameters
+------------------------------------------------------------------------
+r1504 | paumier | 2010-05-23 11:03:34 +0200 (Sun, 23 May 2010) | 1 line
+
+Deleting NumericTextField
+------------------------------------------------------------------------
+r1503 | paumier | 2010-05-23 10:39:53 +0200 (Sun, 23 May 2010) | 1 line
+
+Code cleaning around GraphSizeDialog
+------------------------------------------------------------------------
+r1502 | paumier | 2010-05-23 10:14:58 +0200 (Sun, 23 May 2010) | 1 line
+
+Code cleaning around GraphAlignmentDialog
+------------------------------------------------------------------------
+r1501 | paumier | 2010-05-21 17:01:36 +0200 (Fri, 21 May 2010) | 1 line
+
+Removing public field Preferences.pref
+------------------------------------------------------------------------
+r1500 | paumier | 2010-05-21 16:45:28 +0200 (Fri, 21 May 2010) | 1 line
+
+Huge code cleaning around graph configuration dialog and preferences
+------------------------------------------------------------------------
+r1498 | paumier | 2010-05-20 16:07:35 +0200 (Thu, 20 May 2010) | 1 line
+
+Code cleaning around font dialogs
+------------------------------------------------------------------------
+r1496 | paumier | 2010-05-19 13:40:07 +0200 (Wed, 19 May 2010) | 1 line
+
+Code cleaning around XAlignLocateFrame
+------------------------------------------------------------------------
+r1495 | paumier | 2010-05-19 13:29:09 +0200 (Wed, 19 May 2010) | 1 line
+
+Code cleaning around XAlignFrame
+------------------------------------------------------------------------
+r1494 | paumier | 2010-05-19 11:47:01 +0200 (Wed, 19 May 2010) | 1 line
+
+Code cleaning around XAlignConfigFrame
+------------------------------------------------------------------------
+r1493 | paumier | 2010-05-19 11:32:07 +0200 (Wed, 19 May 2010) | 1 line
+
+Config update
+------------------------------------------------------------------------
+r1492 | paumier | 2010-05-19 11:22:07 +0200 (Wed, 19 May 2010) | 1 line
+
+Bug fix
+------------------------------------------------------------------------
+r1491 | paumier | 2010-05-19 09:30:39 +0200 (Wed, 19 May 2010) | 1 line
+
+Adding warning on multi-drop of non .grf files
+------------------------------------------------------------------------
+r1490 | paumier | 2010-05-19 09:27:47 +0200 (Wed, 19 May 2010) | 1 line
+
+Code cleaning around TranscodingOneFileDialog
+------------------------------------------------------------------------
+r1489 | paumier | 2010-05-19 09:17:22 +0200 (Wed, 19 May 2010) | 1 line
+
+Code cleaning around FileEditionTextFrame
+------------------------------------------------------------------------
+r1488 | paumier | 2010-05-19 08:55:22 +0200 (Wed, 19 May 2010) | 1 line
+
+Modifying console visibility behavior
+------------------------------------------------------------------------
+r1487 | paumier | 2010-05-19 08:51:24 +0200 (Wed, 19 May 2010) | 1 line
+
+Renaming Console__ to Console
+------------------------------------------------------------------------
+r1486 | paumier | 2010-05-19 08:49:20 +0200 (Wed, 19 May 2010) | 1 line
+
+Bug fix in the uncaught exception handler
+------------------------------------------------------------------------
+r1485 | paumier | 2010-05-19 08:44:36 +0200 (Wed, 19 May 2010) | 1 line
+
+Updating the uncaught exception handler
+------------------------------------------------------------------------
+r1484 | paumier | 2010-05-19 08:22:47 +0200 (Wed, 19 May 2010) | 1 line
+
+Code cleaning
+------------------------------------------------------------------------
+r1483 | paumier | 2010-05-19 08:13:24 +0200 (Wed, 19 May 2010) | 1 line
+
+Code cleaning around TranscodingOneFileDialog
+------------------------------------------------------------------------
+r1482 | paumier | 2010-05-19 07:59:48 +0200 (Wed, 19 May 2010) | 1 line
+
+Removing warning in fr.loria.*
+------------------------------------------------------------------------
+r1481 | paumier | 2010-05-17 16:38:45 +0200 (Mon, 17 May 2010) | 1 line
+
+Reorganizing imports to remove .*
+------------------------------------------------------------------------
+r1480 | paumier | 2010-05-17 16:18:12 +0200 (Mon, 17 May 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r1479 | paumier | 2010-05-17 16:09:39 +0200 (Mon, 17 May 2010) | 1 line
+
+Moving files
+------------------------------------------------------------------------
+r1478 | paumier | 2010-05-17 16:09:07 +0200 (Mon, 17 May 2010) | 1 line
+
+Adding package transcoding
+------------------------------------------------------------------------
+r1477 | paumier | 2010-05-17 16:02:05 +0200 (Mon, 17 May 2010) | 1 line
+
+Code cleaning around file transcoding
+------------------------------------------------------------------------
+r1476 | paumier | 2010-05-17 14:54:42 +0200 (Mon, 17 May 2010) | 1 line
+
+Disposing ProcessInfoFrame
+------------------------------------------------------------------------
+r1475 | paumier | 2010-05-17 14:42:36 +0200 (Mon, 17 May 2010) | 1 line
+
+Replacing 'new ProcessInfoFrame(...)' by calls to 'Launcher.exec(...)'
+------------------------------------------------------------------------
+r1474 | paumier | 2010-05-17 14:08:42 +0200 (Mon, 17 May 2010) | 1 line
+
+Modifying splash screen code
+------------------------------------------------------------------------
+r1473 | paumier | 2010-05-17 13:59:45 +0200 (Mon, 17 May 2010) | 1 line
+
+Cleaning and refactoring around HelpOnCommandFrame
+------------------------------------------------------------------------
+r1472 | paumier | 2010-05-17 13:51:31 +0200 (Mon, 17 May 2010) | 1 line
+
+Moving some more classes
+------------------------------------------------------------------------
+r1471 | paumier | 2010-05-17 13:45:00 +0200 (Mon, 17 May 2010) | 1 line
+
+Moving classes
+------------------------------------------------------------------------
+r1470 | paumier | 2010-05-17 13:37:31 +0200 (Mon, 17 May 2010) | 1 line
+
+Cleaning and refactoring around StatisticsFrame
+------------------------------------------------------------------------
+r1469 | paumier | 2010-05-17 13:26:20 +0200 (Mon, 17 May 2010) | 1 line
+
+PreprocessDialog is now persistent
+------------------------------------------------------------------------
+r1468 | paumier | 2010-05-17 12:14:22 +0200 (Mon, 17 May 2010) | 1 line
+
+Cleaning and refactoring around PreprocessFrame, now named PreprocessDialog
+------------------------------------------------------------------------
+r1467 | paumier | 2010-05-17 11:48:27 +0200 (Mon, 17 May 2010) | 1 line
+
+Restoring a close
+------------------------------------------------------------------------
+r1466 | paumier | 2010-05-17 11:34:49 +0200 (Mon, 17 May 2010) | 1 line
+
+Cleaning and refactoring around MessageWhileLoadingFrame
+------------------------------------------------------------------------
+r1465 | paumier | 2010-05-17 11:18:05 +0200 (Mon, 17 May 2010) | 1 line
+
+Cleaning and refactoring around LocateFrame
+------------------------------------------------------------------------
+r1464 | paumier | 2010-05-17 11:00:15 +0200 (Mon, 17 May 2010) | 1 line
+
+Cleaning and refactoring around LexiconGrammarTableFrame
+------------------------------------------------------------------------
+r1463 | paumier | 2010-05-17 10:43:06 +0200 (Mon, 17 May 2010) | 1 line
+
+Cleaning and refactoring around ConvertLexiconGrammarFrame
+------------------------------------------------------------------------
+r1462 | paumier | 2010-05-17 10:34:04 +0200 (Mon, 17 May 2010) | 1 line
+
+Cleaning and refactoring around InflectFrame
+------------------------------------------------------------------------
+r1461 | paumier | 2010-05-17 10:15:17 +0200 (Mon, 17 May 2010) | 1 line
+
+Turning GraphCollectionDialog into GraphCollectionFrame
+------------------------------------------------------------------------
+r1460 | paumier | 2010-05-17 09:27:47 +0200 (Mon, 17 May 2010) | 1 line
+
+Some more cleaning and refactoring around GraphPathFrame, that becomes GraphPathDialog
+------------------------------------------------------------------------
+r1459 | paumier | 2010-05-16 17:27:44 +0200 (Sun, 16 May 2010) | 1 line
+
+Cleaning and refactoring around GraphPathFrame
+------------------------------------------------------------------------
+r1458 | paumier | 2010-05-16 15:43:30 +0200 (Sun, 16 May 2010) | 1 line
+
+Cleaning and refactoring around GlobalPreferencesFrame
+------------------------------------------------------------------------
+r1455 | paumier | 2010-05-16 11:05:04 +0200 (Sun, 16 May 2010) | 1 line
+
+Cleaning and refactoring around ElagCompFrame
+------------------------------------------------------------------------
+r1454 | paumier | 2010-05-16 10:51:09 +0200 (Sun, 16 May 2010) | 1 line
+
+Cleaning and refactoring around ConvertTfstToTextFrame
+------------------------------------------------------------------------
+r1453 | paumier | 2010-05-16 10:44:43 +0200 (Sun, 16 May 2010) | 1 line
+
+Class renaming
+------------------------------------------------------------------------
+r1452 | paumier | 2010-05-16 10:43:30 +0200 (Sun, 16 May 2010) | 1 line
+
+Cleaning and refactoring around ConstructTfstFrame
+------------------------------------------------------------------------
+r1451 | paumier | 2010-05-16 10:31:13 +0200 (Sun, 16 May 2010) | 1 line
+
+Cleaning and refactoring around ConcordanceParameterFrame
+------------------------------------------------------------------------
+r1450 | paumier | 2010-05-16 10:11:12 +0200 (Sun, 16 May 2010) | 1 line
+
+Unregistering font listener when text frame is disposed
+------------------------------------------------------------------------
+r1448 | paumier | 2010-05-15 21:19:44 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around ConcordanceFrame
+------------------------------------------------------------------------
+r1447 | paumier | 2010-05-15 21:00:56 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around ConcordanceDiffFrame
+------------------------------------------------------------------------
+r1446 | paumier | 2010-05-15 20:44:38 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around CheckResultFrame
+------------------------------------------------------------------------
+r1445 | paumier | 2010-05-15 20:36:02 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around CheckDicFrame
+------------------------------------------------------------------------
+r1444 | paumier | 2010-05-15 20:23:27 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around ApplyLexicalResourcesFrame
+------------------------------------------------------------------------
+r1443 | paumier | 2010-05-15 19:17:02 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around the about Unitex frame
+------------------------------------------------------------------------
+r1442 | paumier | 2010-05-15 19:08:05 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around the text automaton frame
+------------------------------------------------------------------------
+r1441 | paumier | 2010-05-15 17:02:41 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around the text dictionary frame
+------------------------------------------------------------------------
+r1440 | paumier | 2010-05-15 16:51:16 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around the tokens frame
+------------------------------------------------------------------------
+r1439 | paumier | 2010-05-15 16:35:40 +0200 (Sat, 15 May 2010) | 1 line
+
+Some more refactoring
+------------------------------------------------------------------------
+r1437 | paumier | 2010-05-15 15:35:00 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around the dela frame
+------------------------------------------------------------------------
+r1436 | paumier | 2010-05-15 14:08:32 +0200 (Sat, 15 May 2010) | 1 line
+
+Cleaning and refactoring around the text frame
+------------------------------------------------------------------------
+r1435 | paumier | 2010-05-15 13:11:16 +0200 (Sat, 15 May 2010) | 1 line
+
+Refactoring print code into PrintManager
+------------------------------------------------------------------------
+r1431 | paumier | 2010-05-14 17:13:11 +0200 (Fri, 14 May 2010) | 1 line
+
+Cleaning and refactoring around graph frames
+------------------------------------------------------------------------
+r1430 | paumier | 2010-05-14 14:25:36 +0200 (Fri, 14 May 2010) | 1 line
+
+Moving GraphFrame to package frames
+------------------------------------------------------------------------
+r1429 | paumier | 2010-05-14 12:56:33 +0200 (Fri, 14 May 2010) | 1 line
+
+Ignoring directories whose names start with "." when collecting language names
+------------------------------------------------------------------------
+r1428 | paumier | 2010-05-14 12:55:01 +0200 (Fri, 14 May 2010) | 1 line
+
+Cleaning ColorRectangle
+------------------------------------------------------------------------
+r1427 | paumier | 2010-05-14 12:46:59 +0200 (Fri, 14 May 2010) | 1 line
+
+Turning ToDoAbstract into an interface named ToDo
+------------------------------------------------------------------------
+r1426 | paumier | 2010-05-14 12:03:11 +0200 (Fri, 14 May 2010) | 1 line
+
+Fixing spell check error in other class names
+------------------------------------------------------------------------
+r1425 | paumier | 2010-05-14 12:01:41 +0200 (Fri, 14 May 2010) | 1 line
+
+Fixing spell check error in class name
+------------------------------------------------------------------------
+r1424 | paumier | 2010-05-14 12:00:39 +0200 (Fri, 14 May 2010) | 1 line
+
+Moving Couple to fr.umlv.unitex.console 
+------------------------------------------------------------------------
+r1423 | paumier | 2010-05-14 11:57:47 +0200 (Fri, 14 May 2010) | 1 line
+
+Adding a command builder for Fst2Check
+------------------------------------------------------------------------
+r1415 | paumier | 2010-05-14 10:28:08 +0200 (Fri, 14 May 2010) | 1 line
+
+Fixing UTF8 bugs in source code+minor spell check corrections
+------------------------------------------------------------------------
+r1414 | paumier | 2010-05-14 09:15:24 +0200 (Fri, 14 May 2010) | 1 line
+
+Fixing UTF8 bug in source code
+------------------------------------------------------------------------
+r1413 | paumier | 2010-05-14 09:08:45 +0200 (Fri, 14 May 2010) | 1 line
+
+Updating build.xml
+------------------------------------------------------------------------
+r1411 | paumier | 2010-05-13 14:48:18 +0200 (Thu, 13 May 2010) | 1 line
+
+Fixing bug in GUI
+------------------------------------------------------------------------
+r1344 | paumier | 2010-04-17 09:07:58 +0200 (Sat, 17 Apr 2010) | 1 line
+
+Bug fix in display of right to left sentence automata
+------------------------------------------------------------------------
+r1330 | paumier | 2010-04-09 14:32:41 +0200 (Fri, 09 Apr 2010) | 2 lines
+
+Adding revision information to the "About" frame
++ exceptions are now catch and shown, offering the possibility to report them by mail
+------------------------------------------------------------------------
+r1325 | paumier | 2010-03-25 14:58:32 +0100 (Thu, 25 Mar 2010) | 1 line
+
+Integrating Anthony Sigogne's tagger in the GUI
+------------------------------------------------------------------------
+r1313 | paumier | 2010-02-17 14:55:49 +0100 (Wed, 17 Feb 2010) | 1 line
+
+Now the token list behaves like a real list when one scrolls
+------------------------------------------------------------------------
+r1302 | paumier | 2010-02-14 18:59:43 +0100 (Sun, 14 Feb 2010) | 1 line
+
+Bug fix in the DELA menu
+------------------------------------------------------------------------
+r1295 | paumier | 2010-02-10 13:02:08 +0100 (Wed, 10 Feb 2010) | 1 line
+
+Bug fix in alignement module: texts were not normalized prior to the application of XMLizer
+------------------------------------------------------------------------
+r1293 | paumier | 2010-02-10 09:49:23 +0100 (Wed, 10 Feb 2010) | 1 line
+
+Bug fix in "Help on commands" frame
+------------------------------------------------------------------------
+r1280 | paumier | 2010-02-05 15:53:18 +0100 (Fri, 05 Feb 2010) | 1 line
+
+Adapting GUI to new Korean policy + warning removal
+------------------------------------------------------------------------
+r1260 | paumier | 2010-01-25 14:57:19 +0100 (Mon, 25 Jan 2010) | 1 line
+
+Restoring display of number of matches in concordance frame
+------------------------------------------------------------------------
+r1256 | paumier | 2010-01-22 14:51:46 +0100 (Fri, 22 Jan 2010) | 1 line
+
+Adapting GUI to -K/--korean
+------------------------------------------------------------------------
+r1242 | paumier | 2010-01-19 13:15:37 +0100 (Tue, 19 Jan 2010) | 1 line
+
+Bug fix: Elag sentences were not always displayed, because of a thread problem
+------------------------------------------------------------------------
+r1223 | paumier | 2010-01-04 15:21:35 +0100 (Mon, 04 Jan 2010) | 1 line
+
+Activation of CheckDic's -n option when language is "Chinese" or "Mandarin"
+------------------------------------------------------------------------
+r1221 | paumier | 2010-01-04 15:02:53 +0100 (Mon, 04 Jan 2010) | 1 line
+
+Updating copyright for 2010
+------------------------------------------------------------------------
+r1198 | paumier | 2009-12-07 15:22:17 +0100 (Mon, 07 Dec 2009) | 1 line
+
+Adapting GUI to -d removal in Elag and ElagComp
+------------------------------------------------------------------------
+r1182 | paumier | 2009-12-03 13:43:03 +0100 (Thu, 03 Dec 2009) | 1 line
+
+When choosing "Modify text": a warning is emitted if the output file is either the current .txt or .snt
+------------------------------------------------------------------------
+r1161 | paumier | 2009-11-24 09:43:42 +0100 (Tue, 24 Nov 2009) | 1 line
+
+Bug fix when launching Dico for Korean
+------------------------------------------------------------------------
+r1147 | paumier | 2009-11-17 09:47:47 +0100 (Tue, 17 Nov 2009) | 1 line
+
+Bug fix in statistics display: occurrence numbers had only their last digit shown
+------------------------------------------------------------------------
+r1145 | paumier | 2009-11-16 16:24:18 +0100 (Mon, 16 Nov 2009) | 1 line
+
+In Construct FST-Text, the user can select the normalization grammar to use
+------------------------------------------------------------------------
+r1144 | paumier | 2009-11-16 16:05:53 +0100 (Mon, 16 Nov 2009) | 3 lines
+
+At preprocessing, construction of text automaton takes into account:
+1) Korean parameters, if needed
+2) Norm.grf, recompiling it, as done for Sentence.grf and Replace.grf
+------------------------------------------------------------------------
+r1141 | paumier | 2009-11-12 16:28:41 +0100 (Thu, 12 Nov 2009) | 1 line
+
+Statistics GUI supports now frequency with no context
+------------------------------------------------------------------------
+r1113 | paumier | 2009-11-03 16:38:01 +0100 (Tue, 03 Nov 2009) | 1 line
+
+Bug fix in statistics display: UTF16 BOM character was taken into account
+------------------------------------------------------------------------
+r1110 | paumier | 2009-11-03 15:18:10 +0100 (Tue, 03 Nov 2009) | 1 line
+
+Adding -f/--fst2 Korean option to Dico in GUI
+------------------------------------------------------------------------
+r1108 | paumier | 2009-11-03 14:50:39 +0100 (Tue, 03 Nov 2009) | 1 line
+
+Adding new parameter to Locate
+------------------------------------------------------------------------
+r1044 | paumier | 2009-09-18 09:33:04 +0200 (Fri, 18 Sep 2009) | 1 line
+
+Adding support for Windows 7
+------------------------------------------------------------------------
+r1038 | paumier | 2009-09-10 09:39:19 +0200 (Thu, 10 Sep 2009) | 3 lines
+
+Bug fix #1: Tfst2Grf takes the graph font into account
+
+Bug fix #2: the sentence automaton #1 was not loaded when there was only one sentence in the corpus
+------------------------------------------------------------------------
+r1037 | paumier | 2009-09-07 10:05:04 +0200 (Mon, 07 Sep 2009) | 1 line
+
+The integrated text editor asks before closing an unsaved text
+------------------------------------------------------------------------
+r1032 | paumier | 2009-08-31 12:38:25 +0200 (Mon, 31 Aug 2009) | 1 line
+
+Cosmetic changes around statistics
+------------------------------------------------------------------------
+r1025 | paumier | 2009-07-20 09:49:38 +0200 (Mon, 20 Jul 2009) | 1 line
+
+Bug fix: the GUI called Dico and Locate with -m even if no morphological dictionary was defined
+------------------------------------------------------------------------
+r1024 | paumier | 2009-07-20 09:44:29 +0200 (Mon, 20 Jul 2009) | 1 line
+
+Ctrl+C in console copies the whole command list to the clipboard
+------------------------------------------------------------------------
+r1010 | paumier | 2009-07-01 17:15:31 +0200 (Wed, 01 Jul 2009) | 1 line
+
+Fake commit, just to test Galileo
+------------------------------------------------------------------------
+r1001 | paumier | 2009-06-29 10:19:27 +0200 (Mon, 29 Jun 2009) | 1 line
+
+The GUI calls now UnitexTool
+------------------------------------------------------------------------
+r994 | paumier | 2009-06-25 10:18:30 +0200 (Thu, 25 Jun 2009) | 1 line
+
+Removing debug prints
+------------------------------------------------------------------------
+r988 | paumier | 2009-06-24 14:09:38 +0200 (Wed, 24 Jun 2009) | 1 line
+
+Green untagged token for Jee-Sun special edition
+------------------------------------------------------------------------
+r986 | paumier | 2009-06-24 09:53:25 +0200 (Wed, 24 Jun 2009) | 1 line
+
+Normalize: don't use -r option if "Norm.txt" does not exist
+------------------------------------------------------------------------
+r965 | paumier | 2009-06-17 12:20:37 +0200 (Wed, 17 Jun 2009) | 1 line
+
+Bug fix: concordance with empty left and right contexts were not displayed properly
+------------------------------------------------------------------------
+r957 | paumier | 2009-06-17 08:08:08 +0200 (Wed, 17 Jun 2009) | 1 line
+
+Reordering commands
+------------------------------------------------------------------------
+r956 | paumier | 2009-06-17 08:05:41 +0200 (Wed, 17 Jun 2009) | 1 line
+
+Fst2UnambigCommand => Tfst2UnambigCommand
+------------------------------------------------------------------------
+r955 | paumier | 2009-06-17 07:54:52 +0200 (Wed, 17 Jun 2009) | 1 line
+
+Renaming Korean options of Txt2Tfst
+------------------------------------------------------------------------
+r952 | paumier | 2009-06-15 15:15:37 +0200 (Mon, 15 Jun 2009) | 1 line
+
+Private joke
+------------------------------------------------------------------------
+r951 | paumier | 2009-06-15 12:35:09 +0200 (Mon, 15 Jun 2009) | 1 line
+
+Adding -a option to CheckDic
+------------------------------------------------------------------------
+r948 | paumier | 2009-06-15 11:52:02 +0200 (Mon, 15 Jun 2009) | 1 line
+
+Adding TRE's BSD licence file
+------------------------------------------------------------------------
+r939 | paumier | 2009-06-12 11:27:25 +0200 (Fri, 12 Jun 2009) | 1 line
+
+Adding -j option to Locate and Dico; no effect for the moment
+------------------------------------------------------------------------
+r938 | paumier | 2009-06-12 10:40:26 +0200 (Fri, 12 Jun 2009) | 4 lines
+
+MultiFlex has 2 new operators for Korean:
+
+J = Jamo left operator
+. = insert a syllab bound, converting previous jamos to hanguls
+------------------------------------------------------------------------
+r931 | paumier | 2009-06-10 08:21:56 +0200 (Wed, 10 Jun 2009) | 2 lines
+
+Font size setting for Korean text automaton
+
+------------------------------------------------------------------------
+r925 | paumier | 2009-06-05 11:22:49 +0200 (Fri, 05 Jun 2009) | 1 line
+
+Console entries are editable, so users can copy their content
+------------------------------------------------------------------------
+r921 | paumier | 2009-06-04 14:55:29 +0200 (Thu, 04 Jun 2009) | 1 line
+
+Changing Korean color according to Jee-Sun's wish
+------------------------------------------------------------------------
+r908 | paumier | 2009-06-02 12:21:23 +0200 (Tue, 02 Jun 2009) | 2 lines
+
+Update of the statistics frame
++ new version of the console: you can see error messages emitted by programs
+------------------------------------------------------------------------
+r900 | paumier | 2009-05-29 09:30:23 +0200 (Fri, 29 May 2009) | 1 line
+
+Bug fix in HelpOnCommandFrame: does not scroll down by default
+------------------------------------------------------------------------
+r899 | paumier | 2009-05-28 16:51:47 +0200 (Thu, 28 May 2009) | 1 line
+
+Replacing the big "help on command" menu by a frame
+------------------------------------------------------------------------
+r898 | paumier | 2009-05-28 16:13:19 +0200 (Thu, 28 May 2009) | 1 line
+
+Statistics can be produced from concordance index files
+------------------------------------------------------------------------
+r894 | paumier | 2009-05-27 17:35:45 +0200 (Wed, 27 May 2009) | 1 line
+
+Adding Uncompress to the program list in the GUI
+------------------------------------------------------------------------
+r890 | paumier | 2009-05-27 15:24:31 +0200 (Wed, 27 May 2009) | 1 line
+
+Hidden options of Locate and LocateTfst are now accessible from the GUI
+------------------------------------------------------------------------
+r885 | paumier | 2009-05-27 12:29:54 +0200 (Wed, 27 May 2009) | 2 lines
+
+Darker color for parts of token to please Jee-Sun
++ Text automaton frame closed before applying Korean dictionaries, because this operation involves rebuilding the .tfst
+------------------------------------------------------------------------
+r875 | paumier | 2009-05-25 09:02:28 +0200 (Mon, 25 May 2009) | 1 line
+
+
+------------------------------------------------------------------------
+r839 | paumier | 2009-05-15 14:37:46 +0200 (Fri, 15 May 2009) | 1 line
+
+Modifying presentation of Locate configuration frame
+------------------------------------------------------------------------
+r835 | paumier | 2009-05-14 15:11:27 +0200 (Thu, 14 May 2009) | 1 line
+
+Removing unused extra information in .tfst format
+------------------------------------------------------------------------
+r833 | paumier | 2009-05-14 13:51:33 +0200 (Thu, 14 May 2009) | 1 line
+
+In a Korean text automaton, untagged token are shown in green
+------------------------------------------------------------------------
+r823 | paumier | 2009-05-13 14:04:25 +0200 (Wed, 13 May 2009) | 1 line
+
+Removing debug print in the GUI
+------------------------------------------------------------------------
+r822 | paumier | 2009-05-13 13:59:52 +0200 (Wed, 13 May 2009) | 2 lines
+
+GUI: construction of Korean text automaton is now correctly parameterized
++ {<E>,.....} boxes are reached by dashed transitions
+------------------------------------------------------------------------
+r821 | paumier | 2009-05-13 11:12:27 +0200 (Wed, 13 May 2009) | 1 line
+
+We deal with the new -j option when invoking LocateTfst for Korean
+------------------------------------------------------------------------
+r819 | paumier | 2009-05-13 10:17:58 +0200 (Wed, 13 May 2009) | 1 line
+
+When we compile a Korean graph, we don't launch the Syl2Jamo conversion program
+------------------------------------------------------------------------
+r814 | paumier | 2009-05-12 17:05:59 +0200 (Tue, 12 May 2009) | 1 line
+
+Some bug fix in GUI for Korean
+------------------------------------------------------------------------
+r810 | paumier | 2009-05-12 16:18:01 +0200 (Tue, 12 May 2009) | 1 line
+
+When you apply lexical resources in Korean, the .tfst text automaton is automatically constructed
+------------------------------------------------------------------------
+r806 | paumier | 2009-05-12 10:59:13 +0200 (Tue, 12 May 2009) | 1 line
+
+Bounds computation is adapted to the new .tfst format that deals with Korean
+------------------------------------------------------------------------
+r792 | paumier | 2009-05-05 11:48:51 +0200 (Tue, 05 May 2009) | 1 line
+
+Format .tfst has been modified in order to handle the notion of logical letter that is useful for Korean. Now, start and end offsets are represented by x.y.z where x is the position in tokens, y the position in characters in the current token and z is the position in logical letters in the current character. For Korean, it is useful to know that we are at n logical letters inside a syllabic character. For any other language, this last value should always be 0.
+------------------------------------------------------------------------
+r769 | paumier | 2009-04-27 10:06:27 +0200 (Mon, 27 Apr 2009) | 1 line
+
+LocateTfst integrated in the Locate pattern frame
+------------------------------------------------------------------------
+r754 | paumier | 2009-04-22 13:50:44 +0200 (Wed, 22 Apr 2009) | 1 line
+
+Bug fix in GUI: there was an error in the automatic transcoding process 
+------------------------------------------------------------------------
+r739 | paumier | 2009-04-21 13:09:47 +0200 (Tue, 21 Apr 2009) | 2 lines
+
+Adding 2 options to MultiFlex in order to forbid 
+simple words or compound. This is useful to detect errors.
+------------------------------------------------------------------------
+r693 | paumier | 2009-04-07 16:46:28 +0200 (Tue, 07 Apr 2009) | 1 line
+
+Updating "About Unitex" frame, because there is no more GPL code in Unitex.
+------------------------------------------------------------------------
+r636 | paumier | 2009-04-01 18:16:47 +0200 (Wed, 01 Apr 2009) | 1 line
+
+Some files were not fully committed, because they were both renamed and modified
+------------------------------------------------------------------------
+r632 | paumier | 2009-04-01 15:27:09 +0200 (Wed, 01 Apr 2009) | 5 lines
+
+SUPER BIG CHANGES !!!
+
+Text automata are no more represented by .fst2 files. Now, they are represented by two files: a .tfst one and a .tind one.
+
+Some programs have been renamed conforming to this change.
+------------------------------------------------------------------------
+r629 | paumier | 2009-02-10 09:57:36 +0100 (Tue, 10 Feb 2009) | 1 line
+
+Bug fix: multiple files are not transcoded several times
+------------------------------------------------------------------------
+r623 | paumier | 2009-01-19 14:34:10 +0100 (Mon, 19 Jan 2009) | 1 line
+
+Adding icons
+------------------------------------------------------------------------
+r622 | paumier | 2009-01-19 11:26:43 +0100 (Mon, 19 Jan 2009) | 1 line
+
+Copyright update.
+------------------------------------------------------------------------
+r620 | paumier | 2009-01-13 09:53:17 +0100 (Tue, 13 Jan 2009) | 1 line
+
+Bastien's special :)
+------------------------------------------------------------------------
+r618 | paumier | 2008-12-03 13:33:55 +0100 (Wed, 03 Dec 2008) | 1 line
+
+Bugfix in ElagCompCommand
+------------------------------------------------------------------------
+r615 | paumier | 2008-11-26 14:17:43 +0100 (Wed, 26 Nov 2008) | 1 line
+
+XMLizer has now getopt style options
+------------------------------------------------------------------------
+r612 | paumier | 2008-11-26 13:50:32 +0100 (Wed, 26 Nov 2008) | 1 line
+
+Txt2Fst2 has now getopt style options
+------------------------------------------------------------------------
+r610 | paumier | 2008-11-26 13:38:32 +0100 (Wed, 26 Nov 2008) | 1 line
+
+Tokenize has now getopt style options
+------------------------------------------------------------------------
+r608 | paumier | 2008-11-26 13:16:15 +0100 (Wed, 26 Nov 2008) | 1 line
+
+TEI2Txt has now getopt style options
+------------------------------------------------------------------------
+r606 | paumier | 2008-11-26 13:01:53 +0100 (Wed, 26 Nov 2008) | 1 line
+
+TagsetNormFst2 has now getopt style options
+------------------------------------------------------------------------
+r604 | paumier | 2008-11-26 12:48:17 +0100 (Wed, 26 Nov 2008) | 1 line
+
+Table2Grf has now getopt style options
+------------------------------------------------------------------------
+r602 | paumier | 2008-11-26 11:42:12 +0100 (Wed, 26 Nov 2008) | 1 line
+
+SortTxt has now getopt style options
+------------------------------------------------------------------------
+r599 | paumier | 2008-11-26 10:57:20 +0100 (Wed, 26 Nov 2008) | 1 line
+
+Reconstrucao has now getopt style options
+------------------------------------------------------------------------
+r597 | paumier | 2008-11-26 10:37:20 +0100 (Wed, 26 Nov 2008) | 1 line
+
+PolyLex has now getopt style options
+------------------------------------------------------------------------
+r595 | paumier | 2008-11-26 10:08:34 +0100 (Wed, 26 Nov 2008) | 1 line
+
+Normalize has now getopt style options
+------------------------------------------------------------------------
+r592 | paumier | 2008-11-26 09:11:12 +0100 (Wed, 26 Nov 2008) | 1 line
+
+MultiFlex has now getopt style options
+------------------------------------------------------------------------
+r588 | paumier | 2008-11-26 08:38:56 +0100 (Wed, 26 Nov 2008) | 1 line
+
+Fst2Unambig has now getopt style options
+------------------------------------------------------------------------
+r586 | paumier | 2008-11-26 08:29:08 +0100 (Wed, 26 Nov 2008) | 1 line
+
+Fst2Txt has now getopt style options
+------------------------------------------------------------------------
+r584 | paumier | 2008-11-25 17:07:28 +0100 (Tue, 25 Nov 2008) | 1 line
+
+Fst2Grf has now getopt style options
+------------------------------------------------------------------------
+r580 | paumier | 2008-11-25 16:15:23 +0100 (Tue, 25 Nov 2008) | 1 line
+
+Flatten has now getopt style options
+------------------------------------------------------------------------
+r579 | paumier | 2008-11-25 15:52:27 +0100 (Tue, 25 Nov 2008) | 2 lines
+
+Locate has now getopt style options
+New options have been added
+------------------------------------------------------------------------
+r571 | paumier | 2008-11-20 17:03:59 +0100 (Thu, 20 Nov 2008) | 1 line
+
+Extract has now getopt style options
+------------------------------------------------------------------------
+r569 | paumier | 2008-11-20 16:05:15 +0100 (Thu, 20 Nov 2008) | 1 line
+
+ExplodeFst2 has now getopt style options
+------------------------------------------------------------------------
+r567 | paumier | 2008-11-20 15:53:44 +0100 (Thu, 20 Nov 2008) | 1 line
+
+Evamb has now getopt style options
+------------------------------------------------------------------------
+r565 | paumier | 2008-11-20 15:22:20 +0100 (Thu, 20 Nov 2008) | 1 line
+
+ElagComp has now getopt style options
+------------------------------------------------------------------------
+r563 | paumier | 2008-11-20 14:49:36 +0100 (Thu, 20 Nov 2008) | 1 line
+
+Elag has now getopt style options
+------------------------------------------------------------------------
+r561 | paumier | 2008-11-20 14:10:55 +0100 (Thu, 20 Nov 2008) | 1 line
+
+Dico has now getopt style options
+------------------------------------------------------------------------
+r559 | paumier | 2008-11-20 12:26:59 +0100 (Thu, 20 Nov 2008) | 1 line
+
+ConcorDiff and Compress have now getopt style options
+------------------------------------------------------------------------
+r557 | paumier | 2008-11-19 18:31:31 +0100 (Wed, 19 Nov 2008) | 1 line
+
+Concord has now getopt style options
+------------------------------------------------------------------------
+r555 | paumier | 2008-11-19 08:02:26 +0100 (Wed, 19 Nov 2008) | 1 line
+
+Compress has now getopt style options
+------------------------------------------------------------------------
+r553 | paumier | 2008-11-18 16:47:19 +0100 (Tue, 18 Nov 2008) | 1 line
+
+CheckDic has now getopt style options
+------------------------------------------------------------------------
+r550 | paumier | 2008-11-18 15:50:51 +0100 (Tue, 18 Nov 2008) | 1 line
+
+Grf2Fst2 has now getopt style options
+------------------------------------------------------------------------
+r543 | paumier | 2008-11-06 11:02:42 +0100 (Thu, 06 Nov 2008) | 1 line
+
+Corpus text is right-aligned for right-to-left languages
+------------------------------------------------------------------------
+r541 | paumier | 2008-10-23 11:47:58 +0200 (Thu, 23 Oct 2008) | 1 line
+
+Switching to Unitex 2.1 beta
+------------------------------------------------------------------------
+r534 | paumier | 2008-10-22 16:53:09 +0200 (Wed, 22 Oct 2008) | 1 line
+
+Bug fix: foo.dic was not unlocked when loading a new .dic
+------------------------------------------------------------------------
+r525 | paumier | 2008-10-16 17:02:45 +0200 (Thu, 16 Oct 2008) | 1 line
+
+Adding PolyLex support for Dutch
+------------------------------------------------------------------------
+r524 | paumier | 2008-10-16 16:58:57 +0200 (Thu, 16 Oct 2008) | 1 line
+
+Adding PolyLex support for Dutch 
+------------------------------------------------------------------------
+r520 | paumier | 2008-10-16 10:24:20 +0200 (Thu, 16 Oct 2008) | 1 line
+
+Bug fix: list.txt file was not unlock properly when a GraphPathFrame was closed
+------------------------------------------------------------------------
+r518 | paumier | 2008-10-16 10:09:31 +0200 (Thu, 16 Oct 2008) | 1 line
+
+
+------------------------------------------------------------------------
+r512 | paumier | 2008-10-14 15:30:52 +0200 (Tue, 14 Oct 2008) | 1 line
+
+In the transcoding frame, the list of available encodings is built from the information given by the Convert program
+------------------------------------------------------------------------
+r511 | paumier | 2008-10-14 13:13:11 +0200 (Tue, 14 Oct 2008) | 1 line
+
+Adding ConcorDiff to the commands
+------------------------------------------------------------------------
+r510 | paumier | 2008-10-14 12:43:08 +0200 (Tue, 14 Oct 2008) | 1 line
+
+Removing unused commands
+------------------------------------------------------------------------
+r495 | paumier | 2008-07-24 09:31:37 +0200 (Thu, 24 Jul 2008) | 1 line
+
+Bug fix: in XAlignFrame, there was a duplicate problem with the aligned view
+------------------------------------------------------------------------
+r494 | paumier | 2008-07-16 16:41:40 +0200 (Wed, 16 Jul 2008) | 1 line
+
+Removing hardcoded test language=="Hungarian"
+------------------------------------------------------------------------
+r482 | paumier | 2008-06-12 10:29:06 +0200 (Thu, 12 Jun 2008) | 1 line
+
+Some little changes...
+------------------------------------------------------------------------
+r473 | paumier | 2008-05-26 17:09:37 +0200 (Mon, 26 May 2008) | 1 line
+
+Removing template warnings
+------------------------------------------------------------------------
+r468 | paumier | 2008-05-26 15:36:06 +0200 (Mon, 26 May 2008) | 1 line
+
+Bug fix
+------------------------------------------------------------------------
+r465 | paumier | 2008-05-26 14:35:59 +0200 (Mon, 26 May 2008) | 2 lines
+
+Adding morphological mode to Locate
+and left contexts
+------------------------------------------------------------------------
+r460 | paumier | 2008-03-28 10:19:13 +0100 (Fri, 28 Mar 2008) | 3 lines
+
+Now, you can set in the global preferences if the
+morphological use of space is allowed, e.g. if
+matching with Fst2Txt or Locate can start on spaces.
+------------------------------------------------------------------------
+r455 | paumier | 2008-03-25 09:53:35 +0100 (Tue, 25 Mar 2008) | 2 lines
+
+Error message when you try to save a graph
+with a name already in use.
+------------------------------------------------------------------------
+r453 | paumier | 2008-03-07 14:50:37 +0100 (Fri, 07 Mar 2008) | 1 line
+
+Bug fix: wide concordances are now shown with a scroll bar that is large enough
+------------------------------------------------------------------------
+r451 | paumier | 2008-03-07 14:23:05 +0100 (Fri, 07 Mar 2008) | 1 line
+
+Updating copyright
+------------------------------------------------------------------------
+r438 | paumier | 2007-11-02 11:29:13 +0100 (Fri, 02 Nov 2007) | 1 line
+
+Removing default parameters for XAlign
+------------------------------------------------------------------------
+r437 | paumier | 2007-11-02 10:26:23 +0100 (Fri, 02 Nov 2007) | 4 lines
+
+XAlign: now you can look for an expression like "king" in one text,
+and having only the sentences of the other text that are aligned with
+matched sentences of the first one (try and you'll see what I mean...)
+
+------------------------------------------------------------------------
+r434 | paumier | 2007-10-23 09:59:00 +0200 (Tue, 23 Oct 2007) | 3 lines
+
+The system Corpus directory is now copied recursively into
+the user directory, when a system language is selected for
+the first time.
+------------------------------------------------------------------------
+r431 | paumier | 2007-10-19 12:02:30 +0200 (Fri, 19 Oct 2007) | 1 line
+
+The GUI gives now info about Freq and Colloc
+------------------------------------------------------------------------
+r423 | arslan | 2007-10-19 00:26:10 +0200 (Fri, 19 Oct 2007) | 1 line
+
+ fixing some library paths 
+------------------------------------------------------------------------
+r420 | paumier | 2007-10-18 15:07:30 +0200 (Thu, 18 Oct 2007) | 1 line
+
+Minor bug fix
+------------------------------------------------------------------------
+r418 | paumier | 2007-10-18 13:23:58 +0200 (Thu, 18 Oct 2007) | 1 line
+
+Replacing some regular expressions
+------------------------------------------------------------------------
+r417 | paumier | 2007-10-18 13:05:37 +0200 (Thu, 18 Oct 2007) | 1 line
+
+XAlign is now accessible from the GUI
+------------------------------------------------------------------------
+r414 | paumier | 2007-10-17 11:27:45 +0200 (Wed, 17 Oct 2007) | 2 lines
+
+Updating copyright, because "Universite de Marne-la-Vallee" becomes:
+"Universite Paris-Est Marne-la-Vallee"
+------------------------------------------------------------------------
+r413 | paumier | 2007-10-17 11:23:19 +0200 (Wed, 17 Oct 2007) | 1 line
+
+Adding manifest file for compiling XAlign as a standalone jar
+------------------------------------------------------------------------
+r412 | paumier | 2007-10-17 11:21:28 +0200 (Wed, 17 Oct 2007) | 1 line
+
+Introducing alignment feature
+------------------------------------------------------------------------
+r411 | paumier | 2007-10-17 11:20:24 +0200 (Wed, 17 Oct 2007) | 1 line
+
+Adding LORIA's XAlign program
+------------------------------------------------------------------------
+r406 | paumier | 2007-10-16 10:18:31 +0200 (Tue, 16 Oct 2007) | 1 line
+
+Adding libraries required by XAlign
+------------------------------------------------------------------------
+r405 | paumier | 2007-10-15 10:36:51 +0200 (Mon, 15 Oct 2007) | 1 line
+
+Updating info frame about licenses
+------------------------------------------------------------------------
+r402 | paumier | 2007-10-10 13:19:04 +0200 (Wed, 10 Oct 2007) | 2 lines
+
+The last revision date is now taken from the file:
+App/revision.date
+------------------------------------------------------------------------
+r324 | paumier | 2007-07-19 08:56:49 +0200 (Thu, 19 Jul 2007) | 1 line
+
+bug fix: the "Save" menu item in works now in the text edition frame
+------------------------------------------------------------------------
+r323 | paumier | 2007-07-18 11:26:26 +0200 (Wed, 18 Jul 2007) | 2 lines
+
+Bug fix 1: you can open empty DELA
+Bug fix 2: when you close a DELA, it is no more locked
+------------------------------------------------------------------------
+r320 | paumier | 2007-07-10 14:52:54 +0200 (Tue, 10 Jul 2007) | 2 lines
+
+Updating code for displaying aligned texts
+Not yet functional!
+------------------------------------------------------------------------
+r316 | paumier | 2007-07-09 11:15:04 +0200 (Mon, 09 Jul 2007) | 1 line
+
+Graph frame's text field is now right to left, if needed
+------------------------------------------------------------------------
+r302 | paumier | 2007-06-15 17:07:05 +0200 (Fri, 15 Jun 2007) | 2 lines
+
+Concordance frames are now set with the concordance font.
+They are dynamically updated if the concordance font is changed.
+------------------------------------------------------------------------
+r300 | paumier | 2007-06-14 09:35:24 +0200 (Thu, 14 Jun 2007) | 1 line
+
+Commenting targets that are unusable while their manifest files are not on the SVN server
+------------------------------------------------------------------------
+r299 | paumier | 2007-06-14 09:23:12 +0200 (Thu, 14 Jun 2007) | 1 line
+
+Modifications about the TagsetnormFst2/ImplodeFst2/ExplodeFst2
+------------------------------------------------------------------------
+r280 | paumier | 2007-04-24 15:50:10 +0200 (Tue, 24 Apr 2007) | 1 line
+
+Removing deprecated program Inflect, now replaced by MultiFlex
+------------------------------------------------------------------------
+r269 | paumier | 2007-04-03 09:56:54 +0200 (Tue, 03 Apr 2007) | 2 lines
+
+Adding classes for presenting aligned texts
+This part of the GUI is not used yet!
+------------------------------------------------------------------------
+r259 | paumier | 2007-03-21 17:06:27 +0100 (Wed, 21 Mar 2007) | 1 line
+
+Allowing Unitex GUI to run under Windows Vista
+------------------------------------------------------------------------
+r258 | paumier | 2007-03-21 13:54:35 +0100 (Wed, 21 Mar 2007) | 1 line
+
+Uncommenting some targets in the build.xml
+------------------------------------------------------------------------
+r255 | wastl | 2007-03-19 16:54:56 +0100 (Mon, 19 Mar 2007) | 1 line
+
+fixed problem with long dlc entries in text dictionary window: together with syntax highlighting long lines are clipped somewhere in the middle
+------------------------------------------------------------------------
+r254 | paumier | 2007-03-19 16:15:28 +0100 (Mon, 19 Mar 2007) | 1 line
+
+Removing deprecated program TextAutomaton2Mft
+------------------------------------------------------------------------
+r247 | paumier | 2007-03-12 11:23:18 +0100 (Mon, 12 Mar 2007) | 1 line
+
+The console frame reads now UTF8 text
+------------------------------------------------------------------------
+r244 | paumier | 2007-02-26 18:31:48 +0100 (Mon, 26 Feb 2007) | 5 lines
+
+The process info frame is smarter:
+- things like "block 247..." are displayed on a single
+  line instead of displaying big lists like "Block 1..." "Block2..."
+- There is a colored background when a message comes from the
+  interface instead of external programs
+------------------------------------------------------------------------
+r238 | paumier | 2007-02-21 08:30:20 +0100 (Wed, 21 Feb 2007) | 1 line
+
+Bug fix: mapped text files were never unlocked by the GUI
+------------------------------------------------------------------------
+r236 | paumier | 2007-02-15 10:52:57 +0100 (Thu, 15 Feb 2007) | 1 line
+
+Bug fix in DelaFrame
+------------------------------------------------------------------------
+r234 | paumier | 2007-02-14 12:20:56 +0100 (Wed, 14 Feb 2007) | 2 lines
+
+- Handling large concordance diff within Unitex
+- Using parameterized types
+------------------------------------------------------------------------
+r233 | paumier | 2007-02-07 18:35:19 +0100 (Wed, 07 Feb 2007) | 1 line
+
+Unitex can now view big concordances
+------------------------------------------------------------------------
+r232 | paumier | 2007-02-06 16:16:56 +0100 (Tue, 06 Feb 2007) | 3 lines
+
+Bug fix in graph size settings
++ removing unnecessary refresh operations in BigTextArea
++ refreshing regular expression field in the locate frame when the text font changes
+------------------------------------------------------------------------
+r230 | paumier | 2007-02-05 15:35:52 +0100 (Mon, 05 Feb 2007) | 3 lines
+
+NOTE: the use of SwingWorker requires to have
+      java 1.6
+(TextAsListModel.java has not really changed)
+------------------------------------------------------------------------
+r228 | paumier | 2007-02-05 15:21:54 +0100 (Mon, 05 Feb 2007) | 2 lines
+
+Unitex can now edit large text files
++ syntactic highlight for displaying dictionaries
+------------------------------------------------------------------------
+r222 | paumier | 2007-01-30 10:27:53 +0100 (Tue, 30 Jan 2007) | 1 line
+
+Adding a paremeter to the NotAUnicodeLittleEndianFileException
+------------------------------------------------------------------------
+r221 | paumier | 2007-01-30 10:26:11 +0100 (Tue, 30 Jan 2007) | 1 line
+
+Calling MultiFlex from the GUI instead of Inflect
+------------------------------------------------------------------------
+r220 | paumier | 2007-01-24 11:06:53 +0100 (Wed, 24 Jan 2007) | 1 line
+
+Adding information about the concerned file
+------------------------------------------------------------------------
+r219 | paumier | 2007-01-24 10:56:08 +0100 (Wed, 24 Jan 2007) | 1 line
+
+Make that the Inflection frame remembers the inflection directory
+------------------------------------------------------------------------
+r217 | paumier | 2007-01-24 10:08:24 +0100 (Wed, 24 Jan 2007) | 1 line
+
+Updating Copyright info
+------------------------------------------------------------------------
+r206 | olivier | 2006-12-06 14:43:11 +0100 (Wed, 06 Dec 2006) | 2 lines
+
+ui
+
+------------------------------------------------------------------------
+r195 | paumier | 2006-11-22 11:14:13 +0100 (Wed, 22 Nov 2006) | 1 line
+
+Forcing use of OceanTheme
+------------------------------------------------------------------------
+r193 | wastl | 2006-11-22 10:44:38 +0100 (Wed, 22 Nov 2006) | 1 line
+
+Concordance: left and right contexts may be limited by first {S}. Added check boxes in "Display Located Sequences".
+------------------------------------------------------------------------
+r191 | paumier | 2006-11-22 10:34:47 +0100 (Wed, 22 Nov 2006) | 1 line
+
+Setting again the Metal Look and Feel for tests
+------------------------------------------------------------------------
+r179 | paumier | 2006-11-15 09:00:21 +0100 (Wed, 15 Nov 2006) | 4 lines
+
+-Taking into account the new version of Normalize
+-Removing unused package rtn
+-Turning to the default look-n-feel, since the Ocean theme
+ of Java 1.5 is smart
+------------------------------------------------------------------------
+r147 | paumier | 2006-10-25 16:12:31 +0200 (Wed, 25 Oct 2006) | 1 line
+
+Text statistics display has been made clearer
+------------------------------------------------------------------------
+r142 | paumier | 2006-10-18 11:03:10 +0200 (Wed, 18 Oct 2006) | 1 line
+
+Moving the Look & Feel library in a dedicated directory
+------------------------------------------------------------------------
+r141 | paumier | 2006-10-18 10:36:36 +0200 (Wed, 18 Oct 2006) | 1 line
+
+Introduction of a new Look & Feel
+------------------------------------------------------------------------
+r120 | unitex | 2006-09-26 13:27:42 +0200 (Tue, 26 Sep 2006) | 2 lines
+
+add ant build.xml file in Java subdir
+
+------------------------------------------------------------------------
+r114 | paumier | 2006-09-14 16:53:07 +0200 (Thu, 14 Sep 2006) | 1 line
+
+Resolving the rectangle bug mystery!
+------------------------------------------------------------------------
+r112 | paumier | 2006-09-14 15:49:19 +0200 (Thu, 14 Sep 2006) | 4 lines
+
+- Restoring the 'y' parameter in calls to Grf2Fst2
+- Replacing draw(Rectangle) by drawRect(...) in 
+  order to avoid a bug while rendering graph boxes
+
+------------------------------------------------------------------------
+r94 | paumier | 2006-09-07 15:32:02 +0200 (Thu, 07 Sep 2006) | 1 line
+
+removing the error that was introduced for tests
+------------------------------------------------------------------------
+r93 | paumier | 2006-09-07 12:26:13 +0200 (Thu, 07 Sep 2006) | 1 line
+
+introducing a compilation error for test purpose
+------------------------------------------------------------------------
+r92 | paumier | 2006-09-01 15:39:43 +0200 (Fri, 01 Sep 2006) | 1 line
+
+Update Unitex title to "Unitex 2.0beta"
+------------------------------------------------------------------------
+r89 | paumier | 2006-09-01 10:38:33 +0200 (Fri, 01 Sep 2006) | 1 line
+
+versioning classes directory
+------------------------------------------------------------------------
+r82 | paumier | 2006-08-31 11:40:50 +0200 (Thu, 31 Aug 2006) | 3 lines
+
+Graph frame titles have been modified 
+to make then more understandable when the
+frames are minimized
+------------------------------------------------------------------------
+r81 | paumier | 2006-08-31 11:29:28 +0200 (Thu, 31 Aug 2006) | 1 line
+
+Versioning of Unitex's Java sources
+------------------------------------------------------------------------
+r80 | paumier | 2006-08-31 11:27:28 +0200 (Thu, 31 Aug 2006) | 1 line
+
+Initial import.
+------------------------------------------------------------------------

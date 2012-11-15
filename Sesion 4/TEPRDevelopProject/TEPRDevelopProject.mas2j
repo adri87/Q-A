@@ -1,0 +1,17 @@
+/*
+    Jason Project
+
+    -- create on March 27, 2012
+*/
+
+MAS teprdevelopproject {
+   infrastructure: Centralised
+
+   environment: es.upm.dit.gsi.sojason.SOEnvironment
+
+   agents:
+       userAgent;
+       nluAgent;
+
+   aslSourcePath: "src/asl"; 
+}

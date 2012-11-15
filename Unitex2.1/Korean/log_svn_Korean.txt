@@ -1,0 +1,31 @@
+------------------------------------------------------------------------
+r2050 | friburger | 2010-12-21 11:42:52 +0100 (Tue, 21 Dec 2010) | 1 line
+
+Creating the folders named Cassys (for each language) for the Cassys System
+------------------------------------------------------------------------
+r932 | paumier | 2009-06-10 08:23:15 +0200 (Wed, 10 Jun 2009) | 1 line
+
+Updating Korean config files
+------------------------------------------------------------------------
+r818 | paumier | 2009-05-13 08:34:59 +0200 (Wed, 13 May 2009) | 1 line
+
+Removing unused file
+------------------------------------------------------------------------
+r813 | paumier | 2009-05-12 16:26:04 +0200 (Tue, 12 May 2009) | 1 line
+
+Updating Korean package in order to include a fully preprocessed version of the default corpus (the end)
+------------------------------------------------------------------------
+r812 | paumier | 2009-05-12 16:25:03 +0200 (Tue, 12 May 2009) | 1 line
+
+Updating Korean package in order to include a fully preprocessed version of the default corpus
+------------------------------------------------------------------------
+r178 | paumier | 2006-11-15 08:44:29 +0100 (Wed, 15 Nov 2006) | 3 lines
+
+Adding for each language a file named Norm.txt that
+defines replacement rules to be used by the new
+version of the Normalize program
+------------------------------------------------------------------------
+r101 | paumier | 2006-09-12 16:14:49 +0200 (Tue, 12 Sep 2006) | 1 line
+
+Adding resources for Korean
+------------------------------------------------------------------------

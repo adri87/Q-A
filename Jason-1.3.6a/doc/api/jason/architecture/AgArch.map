@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./MindInspectorAgArch.html" title="jason.architecture.MindInspectorAgArch" alt="" coords="16,226,227,257"/>
+<area shape="rect" id="node2_1" href="./AgArchInfraTier.html" title="jason.architecture.AgArchInfraTier" alt="" coords="286,11,445,63"/>
+<area shape="rect" id="node3_2" href="./AgArch.html" title="jason.architecture.AgArch" alt="" coords="321,126,409,157"/>
+<area shape="rect" id="node4_3" href="../infra/centralised/CentralisedAgArch.html" title="jason.infra.centralised.CentralisedAgArch" alt="" coords="273,219,458,263"/>
+<area shape="rect" id="node5_4" href="../infra/jade/JasonBridgeArch.html" title="jason.infra.jade.JasonBridgeArch" alt="" coords="504,219,675,263"/>
+</map>

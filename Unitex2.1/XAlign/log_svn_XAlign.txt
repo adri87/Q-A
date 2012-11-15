@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r2114 | paumier | 2011-02-08 16:03:41 +0100 (Tue, 08 Feb 2011) | 1 line
+
+Bug fix a subgraph of Sentence.grf
+------------------------------------------------------------------------
+r419 | paumier | 2007-10-18 14:58:06 +0200 (Thu, 18 Oct 2007) | 3 lines
+
+Adding the XAlign/Sentence directory that contains the
+SentenceXAlign graph used for splitting text in sentences
+and paragraphs for alignment
+------------------------------------------------------------------------
+r407 | paumier | 2007-10-16 11:12:58 +0200 (Tue, 16 Oct 2007) | 1 line
+
+Adding XAlign configuration file
+------------------------------------------------------------------------
+r401 | paumier | 2007-10-10 11:45:09 +0200 (Wed, 10 Oct 2007) | 1 line
+
+Introducing XAlign directory
+------------------------------------------------------------------------
